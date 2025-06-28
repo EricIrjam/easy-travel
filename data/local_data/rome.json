@@ -1,0 +1,55 @@
+{
+  "city_info": {
+    "name": "Rome",
+    "country": "Italie",
+    "timezone": "Europe/Rome",
+    "currency": "EUR",
+    "languages": [
+      "Italien",
+      "Anglais"
+    ],
+    "emergency_numbers": {
+      "Police": "112",
+      "Pompiers": "115"
+    },
+    "tipping_culture": "10-15% dans les restaurants",
+    "cultural_etiquette": [
+      "S'habiller correctement dans les églises",
+      "Pas de short dans les sites religieux",
+      "Respect des sites archéologiques"
+    ],
+    "safety_tips": [
+      "Attention aux pickpockets près du Colisée",
+      "Éviter les vendeurs ambulants"
+    ]
+  },
+  "attractions": [
+    {
+      "name": "Colisée",
+      "category": "Monument historique",
+      "description": "Amphithéâtre antique emblématique",
+      "address": "Piazza del Colosseo, 1, 00184 Roma",
+      "rating": 4.7,
+      "price_level": 3,
+      "opening_hours": {
+        "lundi": "08:30-16:30",
+        "mardi": "08:30-16:30",
+        "mercredi": "08:30-16:30",
+        "jeudi": "08:30-16:30",
+        "vendredi": "08:30-16:30",
+        "samedi": "08:30-16:30",
+        "dimanche": "08:30-16:30"
+      },
+      "duration_visit": 150,
+      "best_time_visit": "Tôt le matin",
+      "accessibility": true,
+      "languages_available": [
+        "Italien",
+        "Anglais",
+        "Français"
+      ],
+      "booking_required": true,
+      "seasonal_info": "Très chaud en été, protection solaire nécessaire"
+    }
+  ]
+}

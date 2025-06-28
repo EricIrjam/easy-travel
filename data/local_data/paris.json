@@ -1,0 +1,162 @@
+{
+  "city_info": {
+    "name": "Paris",
+    "country": "France",
+    "timezone": "Europe/Paris",
+    "currency": "EUR",
+    "languages": [
+      "Français",
+      "Anglais"
+    ],
+    "emergency_numbers": {
+      "Police": "17",
+      "Pompiers": "18",
+      "SAMU": "15"
+    },
+    "tipping_culture": "Service compris, 5-10% si satisfait",
+    "public_holidays": [
+      {
+        "date": "2025-07-14",
+        "name": "Fête Nationale"
+      },
+      {
+        "date": "2025-08-15",
+        "name": "Assomption"
+      },
+      {
+        "date": "2025-12-25",
+        "name": "Noël"
+      }
+    ],
+    "cultural_etiquette": [
+      "Dire 'Bonjour' en entrant dans un commerce",
+      "Vouvoyer les inconnus",
+      "Ne pas manger en marchant dans la rue",
+      "Respecter les horaires de repas"
+    ],
+    "safety_tips": [
+      "Attention aux pickpockets dans le métro",
+      "Éviter certains quartiers la nuit",
+      "Garder ses affaires près de soi en terrasse"
+    ]
+  },
+  "attractions": [
+    {
+      "name": "Musée du Louvre",
+      "category": "Musée",
+      "description": "Le plus grand musée du monde avec la Joconde",
+      "address": "Rue de Rivoli, 75001 Paris",
+      "rating": 4.6,
+      "price_level": 3,
+      "opening_hours": {
+        "lundi": "Fermé",
+        "mardi": "09:00-18:00",
+        "mercredi": "09:00-21:45",
+        "jeudi": "09:00-18:00",
+        "vendredi": "09:00-21:45",
+        "samedi": "09:00-18:00",
+        "dimanche": "09:00-18:00"
+      },
+      "duration_visit": 180,
+      "best_time_visit": "Matin ou en soirée",
+      "accessibility": true,
+      "languages_available": [
+        "Français",
+        "Anglais",
+        "Espagnol",
+        "Italien"
+      ],
+      "booking_required": true,
+      "seasonal_info": "Très fréquenté en été"
+    },
+    {
+      "name": "Tour Eiffel",
+      "category": "Monument",
+      "description": "Symbole emblématique de Paris",
+      "address": "Champ de Mars, 75007 Paris",
+      "rating": 4.4,
+      "price_level": 2,
+      "opening_hours": {
+        "lundi": "09:30-23:45",
+        "mardi": "09:30-23:45",
+        "mercredi": "09:30-23:45",
+        "jeudi": "09:30-23:45",
+        "vendredi": "09:30-23:45",
+        "samedi": "09:30-23:45",
+        "dimanche": "09:30-23:45"
+      },
+      "duration_visit": 120,
+      "best_time_visit": "Coucher de soleil",
+      "accessibility": false,
+      "languages_available": [
+        "Français",
+        "Anglais"
+      ],
+      "booking_required": true,
+      "seasonal_info": "Magnifique illuminée en hiver"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "L'As du Fallafel",
+      "cuisine_type": "Moyen-Oriental",
+      "description": "Meilleur falafel du Marais",
+      "address": "34 Rue des Rosiers, 75004 Paris",
+      "rating": 4.3,
+      "price_range": "€€",
+      "specialties": [
+        "Falafel",
+        "Shawarma",
+        "Houmous"
+      ],
+      "opening_hours": {
+        "lundi": "12:00-24:00",
+        "mardi": "12:00-24:00",
+        "mercredi": "12:00-24:00",
+        "jeudi": "12:00-24:00",
+        "vendredi": "Fermé",
+        "samedi": "Fermé",
+        "dimanche": "12:00-24:00"
+      },
+      "reservation_required": false,
+      "dietary_options": [
+        "vegetarian",
+        "vegan"
+      ],
+      "atmosphere": "Décontracté, authentique",
+      "local_favorite": true
+    }
+  ],
+  "transport": [
+    {
+      "type": "Metro",
+      "description": "Réseau métropolitain dense",
+      "cost": "2.15€ le ticket",
+      "duration": "Rapide dans Paris",
+      "frequency": "2-4 minutes aux heures de pointe",
+      "accessibility": "Variable selon les stations",
+      "tips": [
+        "Achetez un passe journalier si vous voyagez beaucoup",
+        "Évitez les heures de pointe (8h-9h, 18h-19h)",
+        "Attention à la fermeture vers 1h15"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "Nuit Blanche",
+      "category": "Art",
+      "description": "Nuit d'art contemporain gratuite",
+      "start_date": "2025-10-04",
+      "end_date": "2025-10-05",
+      "location": "Toute la ville",
+      "price": "Gratuit",
+      "booking_url": null,
+      "target_audience": [
+        "Art",
+        "Culture",
+        "Jeunes"
+      ]
+    }
+  ]
+}

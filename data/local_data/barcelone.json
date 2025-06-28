@@ -1,0 +1,128 @@
+{
+  "city_info": {
+    "name": "Barcelone",
+    "country": "Espagne",
+    "timezone": "Europe/Madrid",
+    "currency": "EUR",
+    "languages": [
+      "Espagnol",
+      "Catalan",
+      "Anglais"
+    ],
+    "emergency_numbers": {
+      "Police": "112",
+      "Pompiers": "112"
+    },
+    "tipping_culture": "5-10% dans les restaurants",
+    "cultural_etiquette": [
+      "Les repas sont tardifs (14h-15h, 21h-22h)",
+      "Sieste de 14h à 17h dans certaines zones",
+      "Saluer avec des bises (2 bises)"
+    ],
+    "safety_tips": [
+      "Attention aux pickpockets sur Las Ramblas",
+      "Éviter les sacs à dos ouverts dans le métro",
+      "Quartier sûr, mais vigilance la nuit"
+    ]
+  },
+  "attractions": [
+    {
+      "name": "Sagrada Família",
+      "category": "Architecture religieuse",
+      "description": "Chef-d'œuvre de Gaudí, basilique unique au monde",
+      "address": "Carrer de Mallorca, 401, 08013 Barcelona",
+      "rating": 4.7,
+      "price_level": 3,
+      "opening_hours": {
+        "lundi": "09:00-18:00",
+        "mardi": "09:00-18:00",
+        "mercredi": "09:00-18:00",
+        "jeudi": "09:00-18:00",
+        "vendredi": "09:00-18:00",
+        "samedi": "09:00-18:00",
+        "dimanche": "10:30-18:00"
+      },
+      "duration_visit": 120,
+      "best_time_visit": "Tôt le matin ou fin d'après-midi",
+      "accessibility": true,
+      "languages_available": [
+        "Espagnol",
+        "Anglais",
+        "Français"
+      ],
+      "booking_required": true,
+      "seasonal_info": "Très fréquenté en été, réservation obligatoire"
+    },
+    {
+      "name": "Park Güell",
+      "category": "Parc artistique",
+      "description": "Parc coloré de Gaudí avec vue panoramique",
+      "address": "08024 Barcelona",
+      "rating": 4.5,
+      "price_level": 2,
+      "opening_hours": {
+        "lundi": "08:00-18:30",
+        "mardi": "08:00-18:30",
+        "mercredi": "08:00-18:30",
+        "jeudi": "08:00-18:30",
+        "vendredi": "08:00-18:30",
+        "samedi": "08:00-18:30",
+        "dimanche": "08:00-18:30"
+      },
+      "duration_visit": 90,
+      "best_time_visit": "Matin pour éviter la foule",
+      "accessibility": false,
+      "languages_available": [
+        "Espagnol",
+        "Anglais"
+      ],
+      "booking_required": true,
+      "seasonal_info": "Plus agréable au printemps et automne"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Cal Pep",
+      "cuisine_type": "Tapas catalanes",
+      "description": "Institution des tapas à Barcelone",
+      "address": "Plaça de les Olles, 8, 08003 Barcelona",
+      "rating": 4.6,
+      "price_range": "€€€",
+      "specialties": [
+        "Tapas de mer",
+        "Jambon ibérique",
+        "Croquettes"
+      ],
+      "opening_hours": {
+        "lundi": "Fermé",
+        "mardi": "19:30-01:30",
+        "mercredi": "19:30-01:30",
+        "jeudi": "19:30-01:30",
+        "vendredi": "19:30-01:30",
+        "samedi": "19:30-01:30",
+        "dimanche": "Fermé"
+      },
+      "reservation_required": false,
+      "dietary_options": [
+        "pescetarian"
+      ],
+      "atmosphere": "Animé, authentique",
+      "local_favorite": true
+    }
+  ],
+  "transport": [
+    {
+      "type": "Metro",
+      "description": "Réseau moderne et efficace",
+      "cost": "2.40€ le ticket",
+      "duration": "Couvre toute la ville",
+      "frequency": "2-4 minutes",
+      "accessibility": "La plupart des stations",
+      "tips": [
+        "Carte T-10 pour 10 voyages économique",
+        "Évitez les heures de pointe",
+        "Application TMB App très utile"
+      ]
+    }
+  ]
+}
