@@ -1,0 +1,441 @@
+{
+    "city_info": {
+        "name": "New York",
+        "country": "États-Unis",
+        "timezone": "America/New_York",
+        "currency": "USD",
+        "languages": [
+            "Anglais",
+            "Espagnol"
+        ],
+        "emergency_numbers": {
+            "Police/Pompiers/Ambulance": "911"
+        },
+        "tipping_culture": "15-20% obligatoire restaurants, 18-25% bars, $1-2 par drink",
+        "public_holidays": [
+            {
+                "date": "2025-07-04",
+                "name": "Independence Day"
+            },
+            {
+                "date": "2025-09-01",
+                "name": "Labor Day"
+            },
+            {
+                "date": "2025-11-27",
+                "name": "Thanksgiving"
+            }
+        ],
+        "cultural_etiquette": [
+            "Marcher vite sur les trottoirs",
+            "Ne pas bloquer les portes du métro",
+            "Tenir sa droite sur les escalators",
+            "Direct dans la communication"
+        ],
+        "safety_tips": [
+            "Rester vigilant dans le métro tard le soir",
+            "Éviter de sortir son téléphone ostensiblement",
+            "Central Park sûr le jour, éviter la nuit",
+            "Times Square bondé mais sûr"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Statue de la Liberté",
+            "category": "Monument",
+            "description": "Symbole iconique de liberté et d'immigration américaine",
+            "address": "Liberty Island, New York, NY",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "09:00-17:00",
+                "Mardi": "09:00-17:00",
+                "Mercredi": "09:00-17:00",
+                "Jeudi": "09:00-17:00",
+                "Vendredi": "09:00-17:00",
+                "Samedi": "09:00-17:00",
+                "Dimanche": "09:00-17:00"
+            },
+            "duration_visit": 240,
+            "best_time_visit": "Matinée en semaine",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais",
+                "Espagnol",
+                "Français"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Ferry depuis Battery Park, réserver à l'avance"
+        },
+        {
+            "name": "Central Park",
+            "category": "Parc",
+            "description": "Oasis urbaine de 341 hectares au cœur de Manhattan",
+            "address": "Central Park, New York, NY",
+            "rating": 4.7,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "06:00-01:00",
+                "Mardi": "06:00-01:00",
+                "Mercredi": "06:00-01:00",
+                "Jeudi": "06:00-01:00",
+                "Vendredi": "06:00-01:00",
+                "Samedi": "06:00-01:00",
+                "Dimanche": "06:00-01:00"
+            },
+            "duration_visit": 180,
+            "best_time_visit": "Matin ou fin d'après-midi",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Magnifique en automne, patinoire en hiver"
+        },
+        {
+            "name": "Empire State Building",
+            "category": "Gratte-ciel",
+            "description": "Gratte-ciel Art déco iconique avec observatoires panoramiques",
+            "address": "20 W 34th St, New York, NY 10001",
+            "rating": 4.4,
+            "price_level": 4,
+            "opening_hours": {
+                "Lundi": "10:00-00:00",
+                "Mardi": "10:00-00:00",
+                "Mercredi": "10:00-00:00",
+                "Jeudi": "10:00-00:00",
+                "Vendredi": "10:00-00:00",
+                "Samedi": "09:00-00:00",
+                "Dimanche": "09:00-00:00"
+            },
+            "duration_visit": 90,
+            "best_time_visit": "Coucher de soleil ou nuit",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais",
+                "Espagnol",
+                "Français"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Skip-the-line tickets recommandés"
+        },
+        {
+            "name": "Brooklyn Bridge",
+            "category": "Pont",
+            "description": "Pont suspendu historique avec promenade piétonne panoramique",
+            "address": "Brooklyn Bridge, New York, NY",
+            "rating": 4.6,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "24h/24",
+                "Mardi": "24h/24",
+                "Mercredi": "24h/24",
+                "Jeudi": "24h/24",
+                "Vendredi": "24h/24",
+                "Samedi": "24h/24",
+                "Dimanche": "24h/24"
+            },
+            "duration_visit": 60,
+            "best_time_visit": "Tôt le matin ou fin d'après-midi",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Très fréquenté, éviter les heures de pointe"
+        },
+        {
+            "name": "Metropolitan Museum of Art",
+            "category": "Musée",
+            "description": "L'un des plus grands musées d'art au monde",
+            "address": "1000 5th Ave, New York, NY 10028",
+            "rating": 4.7,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "10:00-17:00",
+                "Mardi": "10:00-17:00",
+                "Mercredi": "10:00-17:00",
+                "Jeudi": "10:00-17:00",
+                "Vendredi": "10:00-21:00",
+                "Samedi": "10:00-21:00",
+                "Dimanche": "10:00-17:00"
+            },
+            "duration_visit": 240,
+            "best_time_visit": "Matinée en semaine",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais",
+                "Espagnol",
+                "Français"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Donation suggérée pour les résidents NY"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Katz's Delicatessen",
+            "cuisine_type": "Deli juif",
+            "description": "Delicatessen historique depuis 1888, sandwich pastrami légendaire",
+            "address": "205 E Houston St, New York, NY 10002",
+            "rating": 4.4,
+            "price_range": "€€",
+            "specialties": [
+                "Pastrami sandwich",
+                "Corned beef",
+                "Pickles"
+            ],
+            "opening_hours": {
+                "Lundi": "08:00-22:45",
+                "Mardi": "08:00-22:45",
+                "Mercredi": "08:00-22:45",
+                "Jeudi": "08:00-22:45",
+                "Vendredi": "08:00-00:45",
+                "Samedi": "08:00-00:45",
+                "Dimanche": "08:00-22:45"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "vegetarian"
+            ],
+            "atmosphere": "Authentique et bruyant",
+            "local_favorite": true
+        },
+        {
+            "name": "Peter Luger Steak House",
+            "cuisine_type": "Steakhouse",
+            "description": "Steakhouse légendaire de Brooklyn depuis 1887",
+            "address": "178 Broadway, Brooklyn, NY 11249",
+            "rating": 4.3,
+            "price_range": "€€€€",
+            "specialties": [
+                "Porterhouse steak",
+                "Bacon",
+                "Steak sauce"
+            ],
+            "opening_hours": {
+                "Lundi": "17:00-21:45",
+                "Mardi": "17:00-21:45",
+                "Mercredi": "17:00-21:45",
+                "Jeudi": "17:00-21:45",
+                "Vendredi": "17:00-21:45",
+                "Samedi": "12:45-21:45",
+                "Dimanche": "12:45-21:45"
+            },
+            "reservation_required": true,
+            "dietary_options": [],
+            "atmosphere": "Traditionnel et sans chichis",
+            "local_favorite": true
+        },
+        {
+            "name": "Joe's Pizza",
+            "cuisine_type": "Pizza",
+            "description": "Pizza slice iconique de NYC, plusieurs emplacements",
+            "address": "Multiple locations",
+            "rating": 4.2,
+            "price_range": "€",
+            "specialties": [
+                "Classic cheese slice",
+                "Pepperoni",
+                "Sicilian"
+            ],
+            "opening_hours": {
+                "Lundi": "10:00-04:00",
+                "Mardi": "10:00-04:00",
+                "Mercredi": "10:00-04:00",
+                "Jeudi": "10:00-04:00",
+                "Vendredi": "10:00-05:00",
+                "Samedi": "10:00-05:00",
+                "Dimanche": "10:00-04:00"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "vegetarian"
+            ],
+            "atmosphere": "Décontracté et rapide",
+            "local_favorite": true
+        },
+        {
+            "name": "Russ & Daughters",
+            "cuisine_type": "Appetizing shop",
+            "description": "Shop de spécialités juives, bagels et saumon fumé depuis 1914",
+            "address": "179 E Houston St, New York, NY 10002",
+            "rating": 4.5,
+            "price_range": "€€",
+            "specialties": [
+                "Bagel with lox",
+                "Smoked fish",
+                "Cream cheese"
+            ],
+            "opening_hours": {
+                "Lundi": "08:00-18:00",
+                "Mardi": "08:00-18:00",
+                "Mercredi": "08:00-18:00",
+                "Jeudi": "08:00-18:00",
+                "Vendredi": "08:00-19:00",
+                "Samedi": "08:00-19:00",
+                "Dimanche": "08:00-18:00"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "vegetarian"
+            ],
+            "atmosphere": "Traditionnel et familial",
+            "local_favorite": true
+        }
+    ],
+    "events": [
+        {
+            "name": "Fourth of July Fireworks",
+            "category": "Spectacle national",
+            "description": "Feu d'artifice du 4 juillet sur l'East River",
+            "start_date": "2025-07-04",
+            "end_date": "2025-07-04",
+            "location": "East River, Manhattan",
+            "price": "Gratuit",
+            "booking_url": null
+        },
+        {
+            "name": "New York Fashion Week",
+            "category": "Mode",
+            "description": "Semaine de la mode avec défilés et événements",
+            "start_date": "2025-09-08",
+            "end_date": "2025-09-15",
+            "location": "Various venues, Manhattan",
+            "price": "Invitation seulement (shows publics disponibles)",
+            "booking_url": "https://nyfw.com"
+        },
+        {
+            "name": "SummerStage Concerts",
+            "category": "Musique",
+            "description": "Concerts gratuits dans Central Park tout l'été",
+            "start_date": "2025-06-01",
+            "end_date": "2025-09-30",
+            "location": "Central Park SummerStage",
+            "price": "Gratuit",
+            "booking_url": null
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "SoHo",
+            "description": "Quartier branché avec boutiques de créateurs et galeries d'art",
+            "highlights": [
+                "Shopping haut de gamme",
+                "Architecture cast-iron",
+                "Galeries"
+            ],
+            "atmosphere": "Chic et artistique",
+            "best_for": "Shopping et art"
+        },
+        {
+            "name": "Greenwich Village",
+            "description": "Quartier bohème avec rues pavées et cafés",
+            "highlights": [
+                "Washington Square Park",
+                "Comedy clubs",
+                "Cafés"
+            ],
+            "atmosphere": "Artistique et décontracté",
+            "best_for": "Culture et vie nocturne"
+        },
+        {
+            "name": "Williamsburg",
+            "description": "Quartier hipster de Brooklyn avec vue sur Manhattan",
+            "highlights": [
+                "Rooftops bars",
+                "Food scene",
+                "Vintage shopping"
+            ],
+            "atmosphere": "Hipster et créatif",
+            "best_for": "Nightlife alternative et food"
+        },
+        {
+            "name": "Chinatown",
+            "description": "Quartier chinois authentique avec marchés et restaurants",
+            "highlights": [
+                "Marchés alimentaires",
+                "Restaurants authentiques",
+                "Herboristes"
+            ],
+            "atmosphere": "Authentique et animé",
+            "best_for": "Cuisine asiatique et culture"
+        }
+    ],
+    "transport": {
+        "public_transport": {
+            "subway": {
+                "name": "NYC Subway",
+                "metrocard": "OMNY (tap to pay) ou MetroCard",
+                "cost": "$2.90 per ride",
+                "tips": "Fonctionne 24h/24, express vs local trains"
+            },
+            "bus": {
+                "name": "MTA Bus",
+                "select_bus": "Service plus rapide sur certaines lignes",
+                "accessibility": "Tous accessibles"
+            }
+        },
+        "taxis": {
+            "yellow_cabs": "Iconiques, heler dans la rue",
+            "uber_lyft": "Très populaires",
+            "tips": "Traffic dense, métro souvent plus rapide"
+        }
+    },
+    "local_experiences": [
+        {
+            "name": "Broadway Show",
+            "description": "Spectacle musical ou théâtral dans le Theater District",
+            "best_theaters": [
+                "Majestic Theatre",
+                "Gershwin Theatre",
+                "Ambassador Theatre"
+            ],
+            "booking": "Réserver à l'avance ou rush tickets/lottery",
+            "price_range": "€€€-€€€€",
+            "tips": "TKTS booth à Times Square pour réductions"
+        },
+        {
+            "name": "Rooftop Bar Hopping",
+            "description": "Tour des bars en rooftop avec vue sur la skyline",
+            "best_areas": [
+                "LES",
+                "Williamsburg",
+                "Midtown"
+            ],
+            "popular_spots": [
+                "230 Fifth",
+                "Westlight",
+                "Magic Hour"
+            ],
+            "dress_code": "Smart casual to upscale",
+            "peak_times": "Sunset hours"
+        },
+        {
+            "name": "Food Tour",
+            "description": "Découverte culinaire des quartiers emblématiques",
+            "popular_tours": [
+                "Little Italy",
+                "Chinatown",
+                "Brooklyn"
+            ],
+            "specialties": [
+                "Pizza",
+                "Bagels",
+                "Cheesecake",
+                "Hot dogs"
+            ],
+            "duration": "3-4 heures",
+            "price_range": "€€"
+        },
+        {
+            "name": "High Line Walk",
+            "description": "Promenade sur l'ancienne ligne de train surélevée",
+            "start_point": "Gansevoort Street",
+            "end_point": "34th Street",
+            "duration": "30-45 minutes",
+            "best_time": "Fin d'après-midi",
+            "tips": "Gratuit mais peut être bondé"
+        }
+    ]
+}

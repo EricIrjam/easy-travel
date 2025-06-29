@@ -1,0 +1,215 @@
+{
+    "city_info": {
+        "name": "Marrakech",
+        "country": "Maroc",
+        "timezone": "Africa/Casablanca",
+        "currency": "MAD",
+        "languages": [
+            "Arabe",
+            "Berbère",
+            "Français",
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Police": "19",
+            "Pompiers": "15"
+        },
+        "tipping_culture": "10-15% dans les restaurants, négocier dans les souks",
+        "public_holidays": [
+            {
+                "date": "2025-07-30",
+                "name": "Fête du Trône"
+            },
+            {
+                "date": "2025-08-20",
+                "name": "Révolution du Roi et du Peuple"
+            }
+        ],
+        "cultural_etiquette": [
+            "Se déchausser avant d'entrer dans une mosquée",
+            "Négocier les prix dans les souks",
+            "Respecter le Ramadan",
+            "S'habiller modestement"
+        ],
+        "safety_tips": [
+            "Attention aux pickpockets dans les souks",
+            "Négocier les prix à l'avance",
+            "Éviter l'eau du robinet",
+            "Se protéger du soleil"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Place Jemaa el-Fna",
+            "category": "Place historique",
+            "description": "Place centrale animée avec conteurs et artistes",
+            "address": "Jemaa el-Fna, Marrakech 40000",
+            "rating": 4.3,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Palais de la Bahia",
+            "category": "Palais",
+            "description": "Palais du 19e siècle avec jardins et architecture mauresque",
+            "address": "5 Rue Riad Zitoun el Jdid, Marrakech 40000",
+            "rating": 4.2,
+            "price_level": 2,
+            "opening_hours": "9h00-17h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Mosquée Koutoubia",
+            "category": "Architecture religieuse",
+            "description": "Minaret emblématique de Marrakech (extérieur uniquement)",
+            "address": "Rue el Ksour, Marrakech 40000",
+            "rating": 4.4,
+            "price_level": 1,
+            "opening_hours": "Extérieur 24h/24",
+            "must_see": true,
+            "duration_hours": 1
+        },
+        {
+            "name": "Jardins Majorelle",
+            "category": "Jardin",
+            "description": "Jardin botanique bleu cobalt créé par Yves Saint Laurent",
+            "address": "Rue Yves St Laurent, Marrakech 40000",
+            "rating": 4.1,
+            "price_level": 3,
+            "opening_hours": "8h00-18h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Souks de Marrakech",
+            "category": "Marché traditionnel",
+            "description": "Labyrinthe de marchés dans la médina",
+            "address": "Médina, Marrakech 40000",
+            "rating": 4.0,
+            "price_level": 2,
+            "opening_hours": "9h00-20h00",
+            "must_see": true,
+            "duration_hours": 4
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Al Fassia",
+            "cuisine": "Marocaine traditionnelle",
+            "description": "Restaurant tenu par des femmes, cuisine authentique",
+            "address": "232 Av. Mohammed V, Marrakech 40000",
+            "rating": 4.3,
+            "price_level": 3,
+            "specialties": [
+                "Tagine",
+                "Couscous royal"
+            ]
+        },
+        {
+            "name": "Café des Épices",
+            "cuisine": "Fusion maroco-européenne",
+            "description": "Terrasse sur les toits avec vue sur la médina",
+            "address": "75 Rahba Lakdima, Marrakech 40000",
+            "rating": 4.1,
+            "price_level": 2,
+            "specialties": [
+                "Tajines revisitées",
+                "Thé à la menthe"
+            ]
+        },
+        {
+            "name": "Le Marocain",
+            "cuisine": "Gastronomique marocaine",
+            "description": "Restaurant gastronomique dans un riad luxueux",
+            "address": "La Mamounia, Av. Bab Jdid, Marrakech 40040",
+            "rating": 4.5,
+            "price_level": 5,
+            "specialties": [
+                "Menu dégustation",
+                "Pastilla au pigeon"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Festival International du Film de Marrakech",
+            "date": "2025-11-29 to 2025-12-07",
+            "description": "Festival de cinema international prestigieux",
+            "location": "Palais des Congrès",
+            "type": "Festival culturel"
+        },
+        {
+            "name": "Moussem de Sidi Bel Abbès",
+            "date": "2025-01-14 to 2025-01-21",
+            "description": "Festival religieux et culturel traditionnel",
+            "location": "Quartier Sidi Bel Abbès",
+            "type": "Fête religieuse"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Médina",
+            "description": "Vieille ville fortifiée avec souks et monuments",
+            "atmosphere": "Authentique et animée",
+            "best_for": "Shopping, architecture, culture"
+        },
+        {
+            "name": "Gueliz",
+            "description": "Ville nouvelle moderne avec boutiques et restaurants",
+            "atmosphere": "Moderne et européenne",
+            "best_for": "Shopping moderne, restaurants, cafés"
+        },
+        {
+            "name": "Hivernage",
+            "description": "Quartier hôtelier et résidentiel",
+            "atmosphere": "Luxueux et touristique",
+            "best_for": "Hôtels de luxe, casinos, jardins"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Petit taxi",
+            "description": "Taxis orange pour trajets en ville",
+            "cost": "20-50 MAD selon distance",
+            "tips": "Négocier le prix avant le départ"
+        },
+        {
+            "type": "Calèche",
+            "description": "Carrosses traditionnels pour visites touristiques",
+            "cost": "100-200 MAD/heure",
+            "tips": "Expérience authentique mais négocier le prix"
+        },
+        {
+            "type": "Marche",
+            "description": "Médina se visite principalement à pied",
+            "cost": "Gratuit",
+            "tips": "Porter de bonnes chaussures, rues pavées"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Hammam traditionnel",
+            "description": "Bain traditionnel marocain avec gommage",
+            "duration": "1-2 heures",
+            "price_range": "100-300 MAD",
+            "best_time": "Après-midi"
+        },
+        {
+            "name": "Cours de cuisine marocaine",
+            "description": "Apprendre à préparer tagines et pâtisseries",
+            "duration": "4-5 heures",
+            "price_range": "400-600 MAD",
+            "best_time": "Matin"
+        },
+        {
+            "name": "Excursion dans l'Atlas",
+            "description": "Journée dans les montagnes berbères",
+            "duration": "Journée complète",
+            "price_range": "500-800 MAD",
+            "best_time": "Toute la journée"
+        }
+    ]
+}

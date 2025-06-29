@@ -8,6 +8,70 @@ from services.local_data_service import LocalDataService
 from services.weather_service import WeatherService
 from typing import Dict, Any, List
 
+import os
+
+
+# SOLUTION FINALE: Fix pour le problème OpenAI/httpx avec argument 'proxies'
+def apply_openai_fix():
+    """Applique le fix définitif pour OpenAI/httpx avant toute initialisation"""
+
+    # Suppression complète des variables proxy
+    proxy_vars = [
+        "HTTP_PROXY",
+        "HTTPS_PROXY",
+        "http_proxy",
+        "https_proxy",
+        "ALL_PROXY",
+        "all_proxy",
+    ]
+    for var in proxy_vars:
+        if var in os.environ:
+            del os.environ[var]
+
+    # Fix httpx pour supprimer l'argument 'proxies'
+    try:
+        import httpx
+
+        # Fix pour Client synchrone
+        if not hasattr(httpx.Client, "_easy_travel_fixed"):
+            httpx.Client._easy_travel_fixed = True
+
+            original_init = httpx.Client.__init__
+
+            def fixed_init(self, *args, **kwargs):
+                kwargs.pop("proxies", None)
+                return original_init(self, *args, **kwargs)
+
+            httpx.Client.__init__ = fixed_init
+
+        # Fix pour AsyncClient asynchrone - CRITIQUE
+        if not hasattr(httpx.AsyncClient, "_easy_travel_fixed"):
+            httpx.AsyncClient._easy_travel_fixed = True
+
+            original_async_init = httpx.AsyncClient.__init__
+
+            def fixed_async_init(self, *args, **kwargs):
+                kwargs.pop("proxies", None)
+                return original_async_init(self, *args, **kwargs)
+
+            httpx.AsyncClient.__init__ = fixed_async_init
+
+        return True
+
+    except Exception:
+        return False
+
+
+# Application du fix au démarrage de Streamlit
+apply_openai_fix()
+
+# Configuration proxy désactivée temporairement pour éviter les conflits OpenAI
+# if os.getenv("HTTP_PROXY"):
+#     os.environ["HTTP_PROXY"] = os.getenv("HTTP_PROXY")
+# if os.getenv("HTTPS_PROXY"):
+#     os.environ["HTTPS_PROXY"] = os.getenv("HTTPS_PROXY")
+
+
 # Configuration de la page
 st.set_page_config(
     page_title="Easy Travel - Assistant IA Intelligent",

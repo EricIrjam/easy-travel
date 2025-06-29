@@ -1,0 +1,211 @@
+{
+    "city_info": {
+        "name": "Sydney",
+        "country": "Australie",
+        "timezone": "Australia/Sydney",
+        "currency": "AUD",
+        "languages": [
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Urgences": "000",
+            "Police": "131 444"
+        },
+        "tipping_culture": "10-15% au restaurant si satisfait, pas obligatoire",
+        "public_holidays": [
+            {
+                "date": "2025-01-26",
+                "name": "Australia Day"
+            },
+            {
+                "date": "2025-04-25",
+                "name": "ANZAC Day"
+            }
+        ],
+        "cultural_etiquette": [
+            "Respecter la culture aborigène",
+            "Protection solaire obligatoire",
+            "Respecter la faune marine",
+            "Attitude décontractée appréciée"
+        ],
+        "safety_tips": [
+            "Attention aux courants sur les plages",
+            "Se protéger du soleil (UV élevés)",
+            "Respecter les zones de baignade surveillées"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Opéra de Sydney",
+            "category": "Architecture/Spectacle",
+            "description": "Icône architecturale mondiale et lieu de spectacles",
+            "address": "Bennelong Point, Sydney NSW 2000",
+            "rating": 4.6,
+            "price_level": 3,
+            "opening_hours": "Visites 9h00-17h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Harbour Bridge",
+            "category": "Monument",
+            "description": "Pont emblématique avec possibilité d'escalade",
+            "address": "Sydney Harbour Bridge, Sydney NSW",
+            "rating": 4.7,
+            "price_level": 4,
+            "opening_hours": "Climb: 8h00-17h00",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Plage de Bondi",
+            "category": "Plage",
+            "description": "Plage iconique avec surf et culture balnéaire",
+            "address": "Bondi Beach NSW 2026",
+            "rating": 4.4,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 4
+        },
+        {
+            "name": "The Rocks",
+            "category": "Quartier historique",
+            "description": "Quartier historique avec marchés et pubs",
+            "address": "The Rocks NSW 2000",
+            "rating": 4.3,
+            "price_level": 2,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Zoo Taronga",
+            "category": "Zoo",
+            "description": "Zoo avec vue sur le port et faune australienne",
+            "address": "Bradleys Head Rd, Mosman NSW 2088",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": "9h30-16h30",
+            "must_see": false,
+            "duration_hours": 4
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Quay",
+            "cuisine": "Australienne moderne",
+            "description": "Restaurant gastronomique avec vue sur l'Opéra",
+            "address": "Upper Level, Overseas Passenger Terminal, The Rocks NSW 2000",
+            "rating": 4.4,
+            "price_level": 5,
+            "specialties": [
+                "Cuisine fusion",
+                "Fruits de mer"
+            ]
+        },
+        {
+            "name": "Pancakes on the Rocks",
+            "cuisine": "Comfort food",
+            "description": "Institution locale pour pancakes et comfort food",
+            "address": "4 Hickson Rd, The Rocks NSW 2000",
+            "rating": 4.1,
+            "price_level": 2,
+            "specialties": [
+                "Pancakes",
+                "Brunch australien"
+            ]
+        },
+        {
+            "name": "Fish Market",
+            "cuisine": "Fruits de mer",
+            "description": "Plus grand marché aux poissons de l'hémisphère sud",
+            "address": "Bank St, Pyrmont NSW 2009",
+            "rating": 4.2,
+            "price_level": 2,
+            "specialties": [
+                "Poissons frais",
+                "Huîtres"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Festival Vivid Sydney",
+            "date": "2025-05-23 to 2025-06-14",
+            "description": "Festival de lumières, musique et idées",
+            "location": "Toute la ville",
+            "type": "Festival artistique"
+        },
+        {
+            "name": "Nouvel An à Sydney",
+            "date": "2025-12-31",
+            "description": "Feux d'artifice mondialement célèbres sur le port",
+            "location": "Sydney Harbour",
+            "type": "Célébration"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "The Rocks",
+            "description": "Quartier historique avec architecture coloniale",
+            "atmosphere": "Historique et touristique",
+            "best_for": "Histoire, pubs, marchés du weekend"
+        },
+        {
+            "name": "Darlinghurst",
+            "description": "Quartier artistique et bohème",
+            "atmosphere": "Créatif et multiculturel",
+            "best_for": "Galeries, cafés, vie nocturne"
+        },
+        {
+            "name": "Bondi",
+            "description": "Quartier balnéaire décontracté",
+            "atmosphere": "Surf et plage",
+            "best_for": "Plage, surf, cafés en bord de mer"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Ferry",
+            "description": "Ferries sur le port de Sydney",
+            "cost": "Opal Card: 3,50-8 AUD",
+            "tips": "Ferry vers Manly pour une belle traversée"
+        },
+        {
+            "type": "Train",
+            "description": "Réseau ferroviaire urbain et suburbain",
+            "cost": "Opal Card: 3,20-8,80 AUD",
+            "tips": "Éviter les heures de pointe"
+        },
+        {
+            "type": "Bus",
+            "description": "Réseau de bus complémentaire",
+            "cost": "Opal Card: 2,20-4,60 AUD",
+            "tips": "Bus touristique gratuit dans le CBD"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Surf à Bondi Beach",
+            "description": "Cours de surf sur la plage mythique",
+            "duration": "2-3 heures",
+            "price_range": "60-100 AUD",
+            "best_time": "Matin"
+        },
+        {
+            "name": "Promenade côtière Bondi-Coogee",
+            "description": "Randonnée le long des falaises et plages",
+            "duration": "2-4 heures",
+            "price_range": "Gratuit",
+            "best_time": "Fin d'après-midi"
+        },
+        {
+            "name": "Croisière dans le port",
+            "description": "Tour du port avec vue sur l'Opéra et le Bridge",
+            "duration": "1-2 heures",
+            "price_range": "25-50 AUD",
+            "best_time": "Coucher de soleil"
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "city_info": {
+        "name": "Buenos Aires",
+        "country": "Argentine",
+        "timezone": "America/Argentina/Buenos_Aires",
+        "currency": "ARS",
+        "languages": [
+            "Espagnol",
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Police": "911",
+            "Pompiers": "911"
+        },
+        "tipping_culture": "10% au restaurant, arrondir pour les taxis",
+        "public_holidays": [
+            {
+                "date": "2025-05-25",
+                "name": "Révolution de Mai"
+            },
+            {
+                "date": "2025-07-09",
+                "name": "Indépendance"
+            }
+        ],
+        "cultural_etiquette": [
+            "Saluer par un baiser sur la joue",
+            "Dîner tard (21h-22h)",
+            "Respecter la passion pour le football",
+            "Apprécier le tango"
+        ],
+        "safety_tips": [
+            "Attention aux pickpockets dans les transports",
+            "Éviter de montrer des objets de valeur",
+            "Prudence dans certains quartiers la nuit"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Caminito",
+            "category": "Quartier artistique",
+            "description": "Rue colorée emblématique du quartier La Boca",
+            "address": "Caminito, La Boca, Buenos Aires",
+            "rating": 4.2,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Plaza de Mayo",
+            "category": "Place historique",
+            "description": "Place centrale avec Casa Rosada et Cathédrale",
+            "address": "Plaza de Mayo, Buenos Aires",
+            "rating": 4.3,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Teatro Colón",
+            "category": "Opéra",
+            "description": "Un des plus beaux théâtres d'opéra au monde",
+            "address": "Cerrito 628, Buenos Aires",
+            "rating": 4.6,
+            "price_level": 3,
+            "opening_hours": "Visites 9h00-17h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Recoleta",
+            "category": "Quartier chic",
+            "description": "Quartier élégant avec le célèbre cimetière",
+            "address": "Recoleta, Buenos Aires",
+            "rating": 4.4,
+            "price_level": 2,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Puerto Madero",
+            "category": "Quartier moderne",
+            "description": "Port rénové avec gratte-ciels et restaurants",
+            "address": "Puerto Madero, Buenos Aires",
+            "rating": 4.1,
+            "price_level": 3,
+            "opening_hours": "24h/24",
+            "must_see": false,
+            "duration_hours": 3
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Don Julio",
+            "cuisine": "Parrilla",
+            "description": "Steakhouse réputée pour ses viandes premium",
+            "address": "Guatemala 4699, Buenos Aires",
+            "rating": 4.5,
+            "price_level": 4,
+            "specialties": [
+                "Bife de chorizo",
+                "Malbec"
+            ]
+        },
+        {
+            "name": "Café Tortoni",
+            "cuisine": "Café historique",
+            "description": "Plus ancien café de Buenos Aires (1858)",
+            "address": "Av. de Mayo 825, Buenos Aires",
+            "rating": 4.0,
+            "price_level": 2,
+            "specialties": [
+                "Café cortado",
+                "Spectacles de tango"
+            ]
+        },
+        {
+            "name": "La Brigada",
+            "cuisine": "Parrilla traditionnelle",
+            "description": "Restaurant de quartier avec ambiance authentique",
+            "address": "Estados Unidos 465, Buenos Aires",
+            "rating": 4.3,
+            "price_level": 3,
+            "specialties": [
+                "Asado complet",
+                "Empanadas"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Festival International de Tango",
+            "date": "2025-08-11 to 2025-08-26",
+            "description": "Festival mondial de tango avec spectacles et milongas",
+            "location": "Toute la ville",
+            "type": "Festival de danse"
+        },
+        {
+            "name": "Nuit des Musées",
+            "date": "2025-10-18",
+            "description": "Nuit où tous les musées sont gratuits et ouverts tard",
+            "location": "Tous les musées",
+            "type": "Événement culturel"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "San Telmo",
+            "description": "Quartier historique bohème avec antiquaires",
+            "atmosphere": "Artistique et nostalgique",
+            "best_for": "Tango, antiquités, marché du dimanche"
+        },
+        {
+            "name": "Palermo",
+            "description": "Quartier trendy avec parcs et vie nocturne",
+            "atmosphere": "Jeune et branché",
+            "best_for": "Bars, restaurants, shopping, parcs"
+        },
+        {
+            "name": "La Boca",
+            "description": "Quartier populaire coloré, berceau du tango",
+            "atmosphere": "Populaire et coloré",
+            "best_for": "Caminito, football, culture populaire"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Subte (Métro)",
+            "description": "Métro avec 6 lignes principales",
+            "cost": "Tarjeta SUBE: 70 ARS",
+            "tips": "Éviter les heures de pointe"
+        },
+        {
+            "type": "Bus (Colectivo)",
+            "description": "Réseau dense de bus colorés",
+            "cost": "Tarjeta SUBE: 50-80 ARS",
+            "tips": "Avoir la monnaie exacte"
+        },
+        {
+            "type": "Taxi",
+            "description": "Taxis noirs et jaunes partout",
+            "cost": "Variable selon distance",
+            "tips": "Préférer les radios taxis"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Spectacle de tango",
+            "description": "Show de tango dans une maison traditionnelle",
+            "duration": "2-3 heures",
+            "price_range": "3000-6000 ARS",
+            "best_time": "Soirée"
+        },
+        {
+            "name": "Cours de tango",
+            "description": "Apprendre les pas de base du tango argentin",
+            "duration": "1-2 heures",
+            "price_range": "1500-2500 ARS",
+            "best_time": "Après-midi ou soirée"
+        },
+        {
+            "name": "Asado avec une famille",
+            "description": "Barbecue traditionnel argentin chez l'habitant",
+            "duration": "3-4 heures",
+            "price_range": "4000-6000 ARS",
+            "best_time": "Dimanche après-midi"
+        }
+    ]
+}

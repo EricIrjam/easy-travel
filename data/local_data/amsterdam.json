@@ -1,0 +1,212 @@
+{
+    "city_info": {
+        "name": "Amsterdam",
+        "country": "Pays-Bas",
+        "timezone": "Europe/Amsterdam",
+        "currency": "EUR",
+        "languages": [
+            "Néerlandais",
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Police/Urgences": "112",
+            "Police non-urgente": "0900-8844"
+        },
+        "tipping_culture": "5-10% au restaurant, arrondir pour les taxis",
+        "public_holidays": [
+            {
+                "date": "2025-04-27",
+                "name": "Jour du Roi"
+            },
+            {
+                "date": "2025-05-05",
+                "name": "Jour de la Libération"
+            }
+        ],
+        "cultural_etiquette": [
+            "Respecter les pistes cyclables",
+            "Être ponctuel",
+            "Respecter la vie privée",
+            "Parler doucement en public"
+        ],
+        "safety_tips": [
+            "Attention aux vélos dans les rues",
+            "Éviter les quartiers rouges tard le soir",
+            "Surveiller ses affaires dans les cafés"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Rijksmuseum",
+            "category": "Musée",
+            "description": "Musée national avec des œuvres de Rembrandt et Vermeer",
+            "address": "Museumstraat 1, 1071 XX Amsterdam",
+            "rating": 4.7,
+            "price_level": 3,
+            "opening_hours": "9h00-17h00",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Maison d'Anne Frank",
+            "category": "Musée historique",
+            "description": "Maison où Anne Frank a écrit son célèbre journal",
+            "address": "Prinsengracht 263-267, 1016 GV Amsterdam",
+            "rating": 4.5,
+            "price_level": 2,
+            "opening_hours": "9h00-19h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Musée Van Gogh",
+            "category": "Musée d'art",
+            "description": "Plus grande collection d'œuvres de Vincent van Gogh",
+            "address": "Museumplein 6, 1071 DJ Amsterdam",
+            "rating": 4.6,
+            "price_level": 3,
+            "opening_hours": "9h00-18h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Canaux d'Amsterdam",
+            "category": "Site historique",
+            "description": "Réseau de canaux classé au patrimoine mondial de l'UNESCO",
+            "address": "Centre-ville d'Amsterdam",
+            "rating": 4.8,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 4
+        },
+        {
+            "name": "Vondelpark",
+            "category": "Parc",
+            "description": "Plus grand parc de la ville, parfait pour se détendre",
+            "address": "Vondelpark, Amsterdam",
+            "rating": 4.4,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": false,
+            "duration_hours": 2
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "De Kas",
+            "cuisine": "Moderne européenne",
+            "description": "Restaurant dans une serre avec légumes cultivés sur place",
+            "address": "Kamerlingh Onneslaan 3, 1097 DE Amsterdam",
+            "rating": 4.3,
+            "price_level": 4,
+            "specialties": [
+                "Légumes de saison",
+                "Plats bio"
+            ]
+        },
+        {
+            "name": "Café de Reiger",
+            "cuisine": "Hollandaise traditionnelle",
+            "description": "Bistrot authentique avec spécialités locales",
+            "address": "Nieuwe Leliestraat 34, 1015 SZ Amsterdam",
+            "rating": 4.2,
+            "price_level": 2,
+            "specialties": [
+                "Stamppot",
+                "Bitterballen"
+            ]
+        },
+        {
+            "name": "Restaurant Greetje",
+            "cuisine": "Hollandaise moderne",
+            "description": "Cuisine hollandaise revisitée avec créativité",
+            "address": "Peperstraat 23-25, 1011 TJ Amsterdam",
+            "rating": 4.4,
+            "price_level": 4,
+            "specialties": [
+                "Menu dégustation",
+                "Plats traditionnels revisités"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Jour du Roi",
+            "date": "2025-04-27",
+            "description": "Fête nationale avec défilés et festivités dans les rues",
+            "location": "Toute la ville",
+            "type": "Fête nationale"
+        },
+        {
+            "name": "Festival des Tulipes",
+            "date": "2025-04-01 to 2025-05-31",
+            "description": "Floraison des tulipes dans les jardins Keukenhof et la ville",
+            "location": "Keukenhof et Amsterdam",
+            "type": "Festival nature"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Jordaan",
+            "description": "Quartier bohème avec galeries d'art et cafés bruns",
+            "atmosphere": "Artistique et authentique",
+            "best_for": "Flâner, galeries d'art, cafés"
+        },
+        {
+            "name": "De Pijp",
+            "description": "Quartier jeune et branché avec le marché Albert Cuyp",
+            "atmosphere": "Dynamique et multiculturel",
+            "best_for": "Shopping, marché, vie nocturne"
+        },
+        {
+            "name": "Centrum",
+            "description": "Centre historique avec canaux et monuments",
+            "atmosphere": "Touristique et historique",
+            "best_for": "Monuments, canaux, musées"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Vélo",
+            "description": "Moyen de transport principal à Amsterdam",
+            "cost": "Location: 10-15€/jour",
+            "tips": "Attention aux tramways et aux autres cyclistes"
+        },
+        {
+            "type": "Tramway",
+            "description": "Réseau de tramways couvrant toute la ville",
+            "cost": "Ticket journée: 8€",
+            "tips": "Acheter la carte GVB pour plusieurs jours"
+        },
+        {
+            "type": "Bateau",
+            "description": "Croisières sur les canaux",
+            "cost": "15-25€ par personne",
+            "tips": "Réserver à l'avance en haute saison"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Visite des cafés bruns",
+            "description": "Découverte des pubs traditionnels hollandais",
+            "duration": "3-4 heures",
+            "price_range": "20-40€",
+            "best_time": "Soirée"
+        },
+        {
+            "name": "Tour à vélo des canaux",
+            "description": "Exploration d'Amsterdam à vélo le long des canaux",
+            "duration": "2-3 heures",
+            "price_range": "25-35€",
+            "best_time": "Matin ou après-midi"
+        },
+        {
+            "name": "Marché aux fleurs",
+            "description": "Visite du marché aux fleurs flottant",
+            "duration": "1-2 heures",
+            "price_range": "Gratuit",
+            "best_time": "Matin"
+        }
+    ]
+}

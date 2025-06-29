@@ -1,14 +1,24 @@
 
+# Versions compatibles pour Easy Travel Chatbot
+openai>=1.6.1,<2.0.0
+langchain>=0.1.0,<0.2.0
+langchain-openai>=0.0.8,<0.1.0
+langchain-community>=0.0.20,<0.1.0
 
-openai==0.28
+# Base de données et stockage
 pymongo==4.6.1
 python-dotenv==1.0.0
+
+# Services externes
 googlemaps==4.10.0
-streamlit==1.29.0
-langchain==0.1.0
-langchain-openai==0.0.2
 requests==2.31.0
-pydantic==2.5.0
+
+# Interface utilisateur
+streamlit==1.29.0
+
+# Gestion des données
+pydantic>=1.10.0,<2.0.0  # Version compatible avec LangChain
 typing-extensions==4.8.0
-dataclasses==0.8
+
+# Utilitaires
 enum34==1.1.10

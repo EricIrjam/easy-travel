@@ -1,0 +1,453 @@
+{
+    "city_info": {
+        "name": "Dubai",
+        "country": "Émirats Arabes Unis",
+        "timezone": "Asia/Dubai",
+        "currency": "AED",
+        "languages": [
+            "Arabe",
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Police/Pompiers/Ambulance": "999"
+        },
+        "tipping_culture": "10-15% restaurants, pourboires appréciés mais non obligatoires",
+        "public_holidays": [
+            {
+                "date": "2025-07-31",
+                "name": "Arafat Day"
+            },
+            {
+                "date": "2025-08-01",
+                "name": "Eid Al Adha"
+            },
+            {
+                "date": "2025-12-02",
+                "name": "Fête Nationale UAE"
+            }
+        ],
+        "cultural_etiquette": [
+            "Dress code conservateur dans lieux publics",
+            "Pas d'affection publique",
+            "Enlever chaussures dans mosquées et maisons",
+            "Main droite pour manger et saluer",
+            "Respecter le Ramadan si applicable"
+        ],
+        "safety_tips": [
+            "Très sûr, l'un des plus bas taux de criminalité",
+            "Respecter strictement les lois (alcool, drogues)",
+            "Chaleur extrême en été, s'hydrater",
+            "Attention aux coups de soleil"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Burj Khalifa",
+            "category": "Gratte-ciel",
+            "description": "Plus haute tour du monde avec observatoires et fontaines",
+            "address": "1 Sheikh Mohammed bin Rashid Blvd, Dubai",
+            "rating": 4.6,
+            "price_level": 4,
+            "opening_hours": {
+                "Lundi": "08:30-23:00",
+                "Mardi": "08:30-23:00",
+                "Mercredi": "08:30-23:00",
+                "Jeudi": "08:30-23:00",
+                "Vendredi": "08:30-23:00",
+                "Samedi": "08:30-23:00",
+                "Dimanche": "08:30-23:00"
+            },
+            "duration_visit": 120,
+            "best_time_visit": "Coucher de soleil",
+            "accessibility": true,
+            "languages_available": [
+                "Arabe",
+                "Anglais",
+                "Français"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Réserver à l'avance, prime time plus cher"
+        },
+        {
+            "name": "Mosquée Sheikh Zayed (Abu Dhabi)",
+            "category": "Mosquée",
+            "description": "Magnifique mosquée blanche, une des plus grandes au monde",
+            "address": "Sheikh Rashid Bin Saeed Street, Abu Dhabi",
+            "rating": 4.8,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "09:00-22:00",
+                "Mardi": "09:00-22:00",
+                "Mercredi": "09:00-22:00",
+                "Jeudi": "09:00-22:00",
+                "Vendredi": "16:30-22:00",
+                "Samedi": "09:00-22:00",
+                "Dimanche": "09:00-22:00"
+            },
+            "duration_visit": 120,
+            "best_time_visit": "Fin d'après-midi ou soir",
+            "accessibility": true,
+            "languages_available": [
+                "Arabe",
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Dress code strict: bras et jambes couverts"
+        },
+        {
+            "name": "Dubai Mall",
+            "category": "Shopping",
+            "description": "Plus grand centre commercial du monde avec aquarium",
+            "address": "Downtown Dubai, Dubai",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "10:00-24:00",
+                "Mardi": "10:00-24:00",
+                "Mercredi": "10:00-24:00",
+                "Jeudi": "10:00-24:00",
+                "Vendredi": "10:00-24:00",
+                "Samedi": "10:00-24:00",
+                "Dimanche": "10:00-24:00"
+            },
+            "duration_visit": 240,
+            "best_time_visit": "Matinée ou soirée",
+            "accessibility": true,
+            "languages_available": [
+                "Arabe",
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Très climatisé, refuge parfait contre la chaleur"
+        },
+        {
+            "name": "Desert Safari",
+            "category": "Aventure",
+            "description": "Excursion dans le désert avec dune bashing et camp bédouin",
+            "address": "Various locations in Dubai desert",
+            "rating": 4.4,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "14:00-22:00",
+                "Mardi": "14:00-22:00",
+                "Mercredi": "14:00-22:00",
+                "Jeudi": "14:00-22:00",
+                "Vendredi": "14:00-22:00",
+                "Samedi": "14:00-22:00",
+                "Dimanche": "14:00-22:00"
+            },
+            "duration_visit": 360,
+            "best_time_visit": "Fin d'après-midi",
+            "accessibility": false,
+            "languages_available": [
+                "Arabe",
+                "Anglais"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Éviter en plein été, meilleur Oct-Avril"
+        },
+        {
+            "name": "Palm Jumeirah",
+            "category": "Île artificielle",
+            "description": "Île artificielle en forme de palmier avec hôtels et plages",
+            "address": "Palm Jumeirah, Dubai",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "24h/24",
+                "Mardi": "24h/24",
+                "Mercredi": "24h/24",
+                "Jeudi": "24h/24",
+                "Vendredi": "24h/24",
+                "Samedi": "24h/24",
+                "Dimanche": "24h/24"
+            },
+            "duration_visit": 180,
+            "best_time_visit": "Toute la journée",
+            "accessibility": true,
+            "languages_available": [
+                "Arabe",
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Monorail pour explorer facilement"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Al Hadheerah",
+            "cuisine_type": "Émiratie traditionnelle",
+            "description": "Restaurant du désert avec spectacles traditionnels",
+            "address": "Al Sahra Desert Resort, Dubai",
+            "rating": 4.3,
+            "price_range": "€€€",
+            "specialties": [
+                "Machboos",
+                "Luqaimat",
+                "Camel meat",
+                "Dates"
+            ],
+            "opening_hours": {
+                "Lundi": "19:00-24:00",
+                "Mardi": "19:00-24:00",
+                "Mercredi": "19:00-24:00",
+                "Jeudi": "19:00-24:00",
+                "Vendredi": "19:00-24:00",
+                "Samedi": "19:00-24:00",
+                "Dimanche": "19:00-24:00"
+            },
+            "reservation_required": true,
+            "dietary_options": [
+                "halal",
+                "vegetarian"
+            ],
+            "atmosphere": "Traditionnel bédouin avec spectacles",
+            "local_favorite": true
+        },
+        {
+            "name": "Nobu Dubai",
+            "cuisine_type": "Japonaise fusion",
+            "description": "Restaurant japonais haut de gamme avec vue sur la marina",
+            "address": "Four Seasons Resort Dubai at Jumeirah Beach",
+            "rating": 4.6,
+            "price_range": "€€€€",
+            "specialties": [
+                "Black cod miso",
+                "Yellowtail sashimi",
+                "Wagyu beef"
+            ],
+            "opening_hours": {
+                "Lundi": "19:00-24:00",
+                "Mardi": "19:00-24:00",
+                "Mercredi": "19:00-24:00",
+                "Jeudi": "19:00-24:00",
+                "Vendredi": "19:00-01:00",
+                "Samedi": "19:00-01:00",
+                "Dimanche": "19:00-24:00"
+            },
+            "reservation_required": true,
+            "dietary_options": [
+                "vegetarian",
+                "gluten-free"
+            ],
+            "atmosphere": "Moderne et sophistiqué",
+            "local_favorite": false
+        },
+        {
+            "name": "Bu Qtair",
+            "cuisine_type": "Fruits de mer",
+            "description": "Restaurant local de poisson sans prétention mais délicieux",
+            "address": "Beach Rd, Jumeirah, Dubai",
+            "rating": 4.2,
+            "price_range": "€",
+            "specialties": [
+                "Hammour",
+                "King prawns",
+                "Fish curry",
+                "Samak"
+            ],
+            "opening_hours": {
+                "Lundi": "12:00-15:00, 19:00-24:00",
+                "Mardi": "12:00-15:00, 19:00-24:00",
+                "Mercredi": "12:00-15:00, 19:00-24:00",
+                "Jeudi": "12:00-15:00, 19:00-24:00",
+                "Vendredi": "19:00-24:00",
+                "Samedi": "12:00-15:00, 19:00-24:00",
+                "Dimanche": "12:00-15:00, 19:00-24:00"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "halal"
+            ],
+            "atmosphere": "Local et authentique",
+            "local_favorite": true
+        },
+        {
+            "name": "Ravi Restaurant",
+            "cuisine_type": "Pakistanaise",
+            "description": "Institution locale pour la cuisine pakistanaise depuis 1978",
+            "address": "Al Satwa, Dubai",
+            "rating": 4.1,
+            "price_range": "€",
+            "specialties": [
+                "Mutton karahi",
+                "Chicken tikka",
+                "Naan",
+                "Biryani"
+            ],
+            "opening_hours": {
+                "Lundi": "05:00-03:00",
+                "Mardi": "05:00-03:00",
+                "Mercredi": "05:00-03:00",
+                "Jeudi": "05:00-03:00",
+                "Vendredi": "05:00-03:00",
+                "Samedi": "05:00-03:00",
+                "Dimanche": "05:00-03:00"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "halal",
+                "vegetarian"
+            ],
+            "atmosphere": "Simple et authentique",
+            "local_favorite": true
+        }
+    ],
+    "events": [
+        {
+            "name": "Dubai Shopping Festival",
+            "category": "Shopping",
+            "description": "Festival de shopping avec réductions et spectacles",
+            "start_date": "2025-01-01",
+            "end_date": "2025-02-01",
+            "location": "Tous les malls de Dubai",
+            "price": "Gratuit (shopping avec réductions)",
+            "booking_url": null
+        },
+        {
+            "name": "Dubai Food Festival",
+            "category": "Gastronomie",
+            "description": "Festival culinaire avec restaurants et food trucks",
+            "start_date": "2025-02-15",
+            "end_date": "2025-03-15",
+            "location": "Divers lieux à Dubai",
+            "price": "Variable selon événements",
+            "booking_url": "https://www.dubaifoodfestival.com"
+        },
+        {
+            "name": "Ramadan Night Market",
+            "category": "Culture",
+            "description": "Marchés nocturnes pendant le Ramadan",
+            "start_date": "2025-03-01",
+            "end_date": "2025-03-30",
+            "location": "Al Seef, Old Dubai",
+            "price": "Gratuit",
+            "booking_url": null
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Dubai Marina",
+            "description": "Quartier moderne avec gratte-ciels et marina artificielle",
+            "highlights": [
+                "Marina Walk",
+                "JBR Beach",
+                "Restaurants de plage"
+            ],
+            "atmosphere": "Moderne et luxueux",
+            "best_for": "Nightlife et plage"
+        },
+        {
+            "name": "Old Dubai (Deira)",
+            "description": "Quartier historique avec souks traditionnels",
+            "highlights": [
+                "Gold Souk",
+                "Spice Souk",
+                "Dubai Creek"
+            ],
+            "atmosphere": "Traditionnel et authentique",
+            "best_for": "Shopping traditionnel et culture"
+        },
+        {
+            "name": "Downtown Dubai",
+            "description": "Centre moderne avec Burj Khalifa et Dubai Mall",
+            "highlights": [
+                "Burj Khalifa",
+                "Dubai Mall",
+                "Fontaines"
+            ],
+            "atmosphere": "Sophistiqué et touristique",
+            "best_for": "Shopping et attractions principales"
+        },
+        {
+            "name": "Jumeirah",
+            "description": "Quartier résidentiel haut de gamme le long de la côte",
+            "highlights": [
+                "Plages privées",
+                "Burj Al Arab",
+                "Villas de luxe"
+            ],
+            "atmosphere": "Élégant et tranquille",
+            "best_for": "Détente et luxe"
+        }
+    ],
+    "transport": {
+        "public_transport": {
+            "metro": {
+                "name": "Dubai Metro",
+                "lines": "Red et Green Line",
+                "nol_card": "Carte de transport rechargeable",
+                "womens_carriages": "Sections réservées aux femmes et enfants"
+            },
+            "bus": {
+                "name": "RTA Bus",
+                "coverage": "Extensive dans toute la ville",
+                "air_conditioned": "Tous climatisés"
+            },
+            "tram": {
+                "name": "Dubai Tram",
+                "area": "Dubai Marina et JBR",
+                "connection": "Connecté au metro Red Line"
+            }
+        },
+        "taxis": {
+            "regular": "Nombreux et fiables",
+            "careem_uber": "Apps populaires",
+            "ladies_taxi": "Taxis conduits par des femmes pour femmes",
+            "luxury": "Taxis premium disponibles"
+        }
+    },
+    "local_experiences": [
+        {
+            "name": "Dhow Cruise",
+            "description": "Croisière traditionnelle sur Dubai Creek ou Marina",
+            "types": [
+                "Dubai Creek (traditionnel)",
+                "Marina (moderne)"
+            ],
+            "duration": "2-3 heures",
+            "includes": "Dîner buffet et spectacles",
+            "price_range": "€€"
+        },
+        {
+            "name": "Souk Shopping",
+            "description": "Shopping dans les marchés traditionnels",
+            "popular_souks": [
+                "Gold Souk",
+                "Spice Souk",
+                "Textile Souk"
+            ],
+            "bargaining": "Négociation attendue, commencer à 50% du prix",
+            "best_purchases": [
+                "Or",
+                "Épices",
+                "Textiles",
+                "Parfums"
+            ]
+        },
+        {
+            "name": "Helicopter Tour",
+            "description": "Vol en hélicoptère au-dessus des icônes de Dubai",
+            "duration": "12, 22, ou 40 minutes",
+            "highlights": [
+                "Burj Khalifa",
+                "Palm Jumeirah",
+                "Burj Al Arab"
+            ],
+            "price_range": "€€€€",
+            "booking": "Réservation obligatoire"
+        },
+        {
+            "name": "Ski Dubai",
+            "description": "Piste de ski couverte dans le mall of Emirates",
+            "temperature": "-4°C constant",
+            "activities": [
+                "Ski",
+                "Snowboard",
+                "Rencontrer les pingouins"
+            ],
+            "equipment": "Location d'équipement disponible",
+            "price_range": "€€€"
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "city_info": {
+        "name": "Lisbonne",
+        "country": "Portugal",
+        "timezone": "Europe/Lisbon",
+        "currency": "EUR",
+        "languages": [
+            "Portugais",
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Urgences": "112",
+            "Police": "217 654 242"
+        },
+        "tipping_culture": "10% au restaurant, arrondir pour les taxis",
+        "public_holidays": [
+            {
+                "date": "2025-06-13",
+                "name": "Saint Antoine (Fêtes de Lisbonne)"
+            },
+            {
+                "date": "2025-08-15",
+                "name": "Assomption"
+            }
+        ],
+        "cultural_etiquette": [
+            "Saluer poliment",
+            "Respecter l'heure de la sieste",
+            "Apprécier le fado",
+            "Boire le café debout au comptoir"
+        ],
+        "safety_tips": [
+            "Attention aux pickpockets dans les tramways",
+            "Prudence sur les pavés glissants",
+            "Éviter certaines zones de nuit"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Tour de Belém",
+            "category": "Monument historique",
+            "description": "Tour fortifiée du XVIe siècle, symbole de Lisbonne",
+            "address": "Av. Brasília, 1400-038 Lisboa",
+            "rating": 4.4,
+            "price_level": 2,
+            "opening_hours": "10h00-17h30",
+            "must_see": true,
+            "duration_hours": 1
+        },
+        {
+            "name": "Monastère des Hiéronymites",
+            "category": "Architecture religieuse",
+            "description": "Chef-d'œuvre de l'architecture manuéline",
+            "address": "Praça do Império 1400-206 Lisboa",
+            "rating": 4.6,
+            "price_level": 2,
+            "opening_hours": "10h00-17h30",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Château Saint-Georges",
+            "category": "Château",
+            "description": "Château médiéval avec vue panoramique sur la ville",
+            "address": "R. de Santa Cruz do Castelo, 1100-129 Lisboa",
+            "rating": 4.3,
+            "price_level": 2,
+            "opening_hours": "9h00-18h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Quartier de l'Alfama",
+            "category": "Quartier historique",
+            "description": "Vieux quartier aux ruelles pittoresques et maisons de fado",
+            "address": "Alfama, Lisboa",
+            "rating": 4.7,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Tramway 28",
+            "category": "Transport touristique",
+            "description": "Tramway historique traversant les quartiers emblématiques",
+            "address": "Diverses stations dans Lisbonne",
+            "rating": 4.2,
+            "price_level": 1,
+            "opening_hours": "6h00-23h00",
+            "must_see": true,
+            "duration_hours": 2
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Ramiro",
+            "cuisine": "Fruits de mer",
+            "description": "Institution lisboète célèbre pour ses percebes et crevettes",
+            "address": "Av. Almirante Reis 1 H, 1150-007 Lisboa",
+            "rating": 4.3,
+            "price_level": 2,
+            "specialties": [
+                "Percebes",
+                "Gambas à l'ail"
+            ]
+        },
+        {
+            "name": "Taberna do Real do Fado",
+            "cuisine": "Portugaise traditionnelle",
+            "description": "Restaurant avec spectacle de fado authentique",
+            "address": "R. do Espírito Santo 22, 1200-109 Lisboa",
+            "rating": 4.4,
+            "price_level": 3,
+            "specialties": [
+                "Bacalhau",
+                "Spectacle de fado"
+            ]
+        },
+        {
+            "name": "Pastéis de Belém",
+            "cuisine": "Pâtisserie",
+            "description": "Berceau des fameux pastéis de nata depuis 1837",
+            "address": "R. de Belém 84-92, 1300-085 Lisboa",
+            "rating": 4.2,
+            "price_level": 1,
+            "specialties": [
+                "Pastéis de nata originaux",
+                "Café"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Fêtes de Lisbonne",
+            "date": "2025-06-01 to 2025-06-30",
+            "description": "Mois de festivités avec sardines grillées et spectacles",
+            "location": "Toute la ville",
+            "type": "Fête populaire"
+        },
+        {
+            "name": "Rock in Rio Lisboa",
+            "date": "2025-06-14 to 2025-06-22",
+            "description": "Festival de musique international",
+            "location": "Parque da Bela Vista",
+            "type": "Festival de musique"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Alfama",
+            "description": "Quartier historique aux ruelles pavées et maisons de fado",
+            "atmosphere": "Authentique et musical",
+            "best_for": "Fado, architecture mauresque, vues panoramiques"
+        },
+        {
+            "name": "Bairro Alto",
+            "description": "Quartier bohème réputé pour sa vie nocturne",
+            "atmosphere": "Festif et artistique",
+            "best_for": "Bars, restaurants, vie nocturne"
+        },
+        {
+            "name": "Chiado",
+            "description": "Quartier élégant avec boutiques et théâtres",
+            "atmosphere": "Chic et culturel",
+            "best_for": "Shopping, cafés, opéra"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Tramway",
+            "description": "Réseau de tramways historiques, notamment le fameux 28",
+            "cost": "Ticket simple: 1,50€",
+            "tips": "Acheter la Lisboa Card pour les transports et musées"
+        },
+        {
+            "type": "Métro",
+            "description": "Réseau moderne avec 4 lignes",
+            "cost": "Ticket simple: 1,50€",
+            "tips": "Stations décorées d'azulejos"
+        },
+        {
+            "type": "Funiculaire",
+            "description": "Ascenseurs historiques pour monter les collines",
+            "cost": "Ticket simple: 3,80€",
+            "tips": "Elevador de Santa Justa offre une belle vue"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Soirée fado",
+            "description": "Écouter du fado authentique dans une casa de fado",
+            "duration": "2-3 heures",
+            "price_range": "30-50€",
+            "best_time": "Soirée"
+        },
+        {
+            "name": "Dégustation de vins du Porto",
+            "description": "Visite des caves de Vila Nova de Gaia",
+            "duration": "Demi-journée",
+            "price_range": "20-40€",
+            "best_time": "Après-midi"
+        },
+        {
+            "name": "Cours de cuisine portugaise",
+            "description": "Apprendre à cuisiner les spécialités locales",
+            "duration": "3-4 heures",
+            "price_range": "60-80€",
+            "best_time": "Matin ou après-midi"
+        }
+    ]
+}

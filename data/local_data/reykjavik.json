@@ -1,0 +1,211 @@
+{
+    "city_info": {
+        "name": "Reykjavik",
+        "country": "Islande",
+        "timezone": "Atlantic/Reykjavik",
+        "currency": "ISK",
+        "languages": [
+            "Islandais",
+            "Anglais"
+        ],
+        "emergency_numbers": {
+            "Urgences": "112"
+        },
+        "tipping_culture": "Pas de pourboire nécessaire, service inclus",
+        "public_holidays": [
+            {
+                "date": "2025-06-17",
+                "name": "Fête Nationale d'Islande"
+            },
+            {
+                "date": "2025-08-04",
+                "name": "Weekend des Commerçants"
+            }
+        ],
+        "cultural_etiquette": [
+            "Enlever ses chaussures en entrant",
+            "Respecter la nature",
+            "Apprécier les sources chaudes",
+            "Être ponctuel"
+        ],
+        "safety_tips": [
+            "Très sûr, peu de criminalité",
+            "Attention aux conditions météo changeantes",
+            "Respecter les zones géothermiques"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Hallgrímskirkja",
+            "category": "Architecture religieuse",
+            "description": "Église emblématique avec vue panoramique",
+            "address": "Hallgrímstorg 101, Reykjavik",
+            "rating": 4.5,
+            "price_level": 2,
+            "opening_hours": "9h00-21h00",
+            "must_see": true,
+            "duration_hours": 1
+        },
+        {
+            "name": "Harpa",
+            "category": "Architecture moderne",
+            "description": "Salle de concert au design révolutionnaire",
+            "address": "Austurbakki 2, Reykjavik",
+            "rating": 4.4,
+            "price_level": 2,
+            "opening_hours": "8h00-24h00",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Lagon Bleu",
+            "category": "Source chaude",
+            "description": "Spa géothermique iconique (à 45min de Reykjavik)",
+            "address": "Nordurljosavegur 9, Grindavik",
+            "rating": 4.2,
+            "price_level": 4,
+            "opening_hours": "7h00-21h00",
+            "must_see": true,
+            "duration_hours": 4
+        },
+        {
+            "name": "Vieux Port",
+            "category": "Port",
+            "description": "Port pittoresque avec restaurants et excursions",
+            "address": "Geirsgata, Reykjavik",
+            "rating": 4.1,
+            "price_level": 2,
+            "opening_hours": "24h/24",
+            "must_see": false,
+            "duration_hours": 2
+        },
+        {
+            "name": "Perlan",
+            "category": "Musée",
+            "description": "Musée et planétarium avec dôme d'observation",
+            "address": "Varmahlíð 1, Reykjavik",
+            "rating": 4.3,
+            "price_level": 3,
+            "opening_hours": "9h00-18h00",
+            "must_see": false,
+            "duration_hours": 3
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Dill",
+            "cuisine": "Nordique moderne",
+            "description": "Restaurant étoilé Michelin, cuisine islandaise créative",
+            "address": "Hverfisgata 12, Reykjavik",
+            "rating": 4.6,
+            "price_level": 5,
+            "specialties": [
+                "Menu dégustation",
+                "Produits locaux"
+            ]
+        },
+        {
+            "name": "Bæjarins Beztu Pylsur",
+            "cuisine": "Fast food local",
+            "description": "Stand de hot-dogs le plus célèbre d'Islande",
+            "address": "Tryggvagata 1, Reykjavik",
+            "rating": 4.0,
+            "price_level": 1,
+            "specialties": [
+                "Hot-dog islandais",
+                "Sauce spéciale"
+            ]
+        },
+        {
+            "name": "Fiskmarkadurinn",
+            "cuisine": "Fruits de mer",
+            "description": "Restaurant haut de gamme spécialisé en poissons",
+            "address": "Aðalstræti 12, Reykjavik",
+            "rating": 4.4,
+            "price_level": 4,
+            "specialties": [
+                "Poissons de l'Atlantique Nord",
+                "Homard islandais"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Iceland Airwaves",
+            "date": "2025-11-05 to 2025-11-09",
+            "description": "Festival de musique indie internationale",
+            "location": "Diverses venues à Reykjavik",
+            "type": "Festival de musique"
+        },
+        {
+            "name": "Festival des Lumières d'Hiver",
+            "date": "2025-02-06 to 2025-02-09",
+            "description": "Festival célébrant la fin de l'hiver polaire",
+            "location": "Toute la ville",
+            "type": "Festival culturel"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Centre-ville",
+            "description": "Cœur historique compact et coloré",
+            "atmosphere": "Charmant et accessible",
+            "best_for": "Shopping, cafés, architecture"
+        },
+        {
+            "name": "Laugavegur",
+            "description": "Rue principale avec boutiques et restaurants",
+            "atmosphere": "Animé et commercial",
+            "best_for": "Shopping, restaurants, vie nocturne"
+        },
+        {
+            "name": "Vesturbær",
+            "description": "Quartier résidentiel en bord de mer",
+            "atmosphere": "Tranquille et local",
+            "best_for": "Promenades, plages, architecture locale"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Bus",
+            "description": "Réseau de bus Strætó couvrant la ville",
+            "cost": "Ticket simple: 490 ISK",
+            "tips": "Acheter la carte Klappið pour plusieurs trajets"
+        },
+        {
+            "type": "Marche",
+            "description": "Centre-ville compact, idéal à pied",
+            "cost": "Gratuit",
+            "tips": "Bien s'équiper pour la météo"
+        },
+        {
+            "type": "Vélo",
+            "description": "Système de vélos partagés WOW CityBike",
+            "cost": "1500 ISK/24h",
+            "tips": "Attention au vent fort"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Chasse aux aurores boréales",
+            "description": "Excursion nocturne pour observer les aurores",
+            "duration": "3-4 heures",
+            "price_range": "8000-12000 ISK",
+            "best_time": "Septembre à mars, nuit"
+        },
+        {
+            "name": "Baignade en source chaude",
+            "description": "Détente dans les piscines géothermiques locales",
+            "duration": "2-3 heures",
+            "price_range": "800-1500 ISK",
+            "best_time": "Toute la journée"
+        },
+        {
+            "name": "Excursion Cercle d'Or",
+            "description": "Tour des sites naturels emblématiques",
+            "duration": "Journée complète",
+            "price_range": "12000-18000 ISK",
+            "best_time": "Toute la journée"
+        }
+    ]
+}

@@ -3,6 +3,7 @@ from langchain.memory import ConversationBufferWindowMemory
 from langchain.chains import ConversationChain
 from langchain.prompts import PromptTemplate
 from langchain.schema import BaseMessage, HumanMessage, AIMessage
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 import os
 import json
 from datetime import datetime
@@ -16,28 +17,212 @@ from services.weather_service import WeatherService
 from services.interactive_journey import InteractiveJourneyOrchestrator
 from models.user_profile import UserProfile, UserPreferences, TravelPlan
 from utils.helpers import TravelHelpers
-import json
 
 load_dotenv()
+
+# Configuration proxy plus sûre - désactivée temporairement pour éviter les conflits
+# Les proxies seront gérés individuellement si nécessaire
+# if os.getenv("HTTP_PROXY"):
+#     os.environ["HTTP_PROXY"] = os.getenv("HTTP_PROXY")
+# if os.getenv("HTTPS_PROXY"):
+#     os.environ["HTTPS_PROXY"] = os.getenv("HTTPS_PROXY")
+
+
+def apply_httpx_fix():
+    """Applique le fix pour le problème d'argument 'proxies' avec httpx/OpenAI"""
+    try:
+        import httpx
+
+        # Fix pour httpx.Client (synchrone)
+        if not hasattr(httpx.Client, "_original_init"):
+            httpx.Client._original_init = httpx.Client.__init__
+
+            def fixed_init(self, *args, **kwargs):
+                kwargs.pop("proxies", None)
+                return self._original_init(*args, **kwargs)
+
+            httpx.Client.__init__ = fixed_init
+
+        # Fix pour httpx.AsyncClient (asynchrone) - SOLUTION CRITIQUE
+        if not hasattr(httpx.AsyncClient, "_original_init"):
+            httpx.AsyncClient._original_init = httpx.AsyncClient.__init__
+
+            def fixed_async_init(self, *args, **kwargs):
+                kwargs.pop("proxies", None)
+                return self._original_init(*args, **kwargs)
+
+            httpx.AsyncClient.__init__ = fixed_async_init
+
+        print("✅ Fix httpx Client + AsyncClient appliqué avec succès")
+        return True
+
+    except Exception as e:
+        print(f"⚠️ Impossible d'appliquer le fix httpx: {e}")
+        return False
+
+
+def create_chat_openai_safely():
+    """Crée une instance ChatOpenAI avec gestion d'erreur robuste"""
+    openai_key = os.getenv("OPENAI_API_KEY")
+
+    if not openai_key or openai_key == "your_openai_key_here":
+        print("⚠️  OPENAI_API_KEY non configurée - mode démo")
+        return None
+
+    # Nettoyage complet de l'environnement proxy
+    proxy_vars = [
+        "HTTP_PROXY",
+        "HTTPS_PROXY",
+        "http_proxy",
+        "https_proxy",
+        "ALL_PROXY",
+        "all_proxy",
+    ]
+    saved_proxies = {}
+
+    # Sauvegarde et supprime tous les proxies
+    for var in proxy_vars:
+        if var in os.environ:
+            saved_proxies[var] = os.environ[var]
+            del os.environ[var]
+
+    # SOLUTION FINALE: Applique le fix httpx avant toute initialisation
+    apply_httpx_fix()
+
+    try:
+        import importlib
+        import sys
+
+        # Supprime les modules mis en cache qui pourraient avoir des proxies
+        modules_to_reload = [
+            mod
+            for mod in sys.modules.keys()
+            if any(x in mod for x in ["httpx", "openai", "langchain_openai"])
+        ]
+
+        # Essaie plusieurs configurations ultra-basiques
+        configs_to_try = [
+            # Configuration minimale absolue
+            {
+                "model": "gpt-3.5-turbo",
+                "openai_api_key": openai_key,
+            },
+            # Avec température
+            {
+                "model": "gpt-3.5-turbo",
+                "openai_api_key": openai_key,
+                "temperature": 0.7,
+            },
+        ]
+
+        for i, config in enumerate(configs_to_try):
+            try:
+                llm = ChatOpenAI(**config)
+                print(f"✅ ChatOpenAI initialisé (config {i+1})")
+                return llm
+            except Exception as e:
+                print(f"❌ Échec config {i+1}: {e}")
+                continue
+
+    finally:
+        # Restaure les proxies
+        for var, value in saved_proxies.items():
+            os.environ[var] = value
+
+    print("❌ Impossible d'initialiser ChatOpenAI")
+    return None
+
+    print("❌ Impossible d'initialiser ChatOpenAI")
+    return None
+
+
+def create_direct_openai_client():
+    """Alternative: crée un client OpenAI direct si LangChain échoue"""
+    openai_key = os.getenv("OPENAI_API_KEY")
+
+    if not openai_key or openai_key == "your_openai_key_here":
+        return None
+
+    # Nettoyage complet des proxies pour OpenAI direct
+    proxy_vars = [
+        "HTTP_PROXY",
+        "HTTPS_PROXY",
+        "http_proxy",
+        "https_proxy",
+        "ALL_PROXY",
+        "all_proxy",
+    ]
+    saved_proxies = {}
+
+    # Sauvegarde et supprime tous les proxies
+    for var in proxy_vars:
+        if var in os.environ:
+            saved_proxies[var] = os.environ[var]
+            del os.environ[var]
+
+    # SOLUTION FINALE: Applique le fix httpx avant création du client
+    apply_httpx_fix()
+
+    try:
+        import openai
+
+        # Configuration ultra-simple sans proxy
+        client = openai.OpenAI(
+            api_key=openai_key,
+            # Pas de configuration proxy du tout
+        )
+
+        # Test rapide
+        test_response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": "Test"}],
+            max_tokens=5,
+        )
+
+        print("✅ Client OpenAI direct créé et testé")
+        return client
+
+    except Exception as e:
+        print(f"❌ Erreur client OpenAI direct: {e}")
+        return None
+    finally:
+        # Restaure les proxies
+        for var, value in saved_proxies.items():
+            os.environ[var] = value
 
 
 class EasyTravelChatbot:
     def __init__(self):
-        self.llm = ChatOpenAI(
-            model="gpt-4", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY")
-        )
+        # Configuration plus robuste de ChatOpenAI
+        self.llm = create_chat_openai_safely()
+        self.direct_openai_client = None
 
-        self.memory = ConversationBufferWindowMemory(
-            k=10, return_messages=True  # Garde les 10 derniers échanges
-        )
+        if not self.llm:
+            print("⚠️  LangChain ChatOpenAI échec, essai client direct...")
+            # Essaie un client OpenAI direct en fallback
+            self.direct_openai_client = create_direct_openai_client()
 
-        self.prompt = PromptTemplate(
-            input_variables=["history", "input"], template=EASY_TRAVEL_PROMPT
-        )
+            if self.direct_openai_client:
+                print("✅ Client OpenAI direct disponible")
+                self.llm = None  # Pas de LangChain LLM
+                self.conversation = None
+            else:
+                print("⚠️  Mode dégradé: aucun LLM disponible")
+                self.llm = None
+                self.conversation = None
+        else:
+            # Initialisation normale avec LLM
+            self.memory = ConversationBufferWindowMemory(
+                k=10, return_messages=True  # Garde les 10 derniers échanges
+            )
 
-        self.conversation = ConversationChain(
-            llm=self.llm, memory=self.memory, prompt=self.prompt, verbose=True
-        )
+            self.prompt = PromptTemplate(
+                input_variables=["history", "input"], template=EASY_TRAVEL_PROMPT
+            )
+
+            self.conversation = ConversationChain(
+                llm=self.llm, memory=self.memory, prompt=self.prompt, verbose=True
+            )
 
         self.db = UserDatabase()
         self.travel_api = TravelAPI()
@@ -75,8 +260,16 @@ class EasyTravelChatbot:
         # Contexte enrichi avec recommandations intelligentes
         enriched_input = self._enrich_context_advanced(user_input)
 
-        # Génère la réponse via LangChain
-        response = self.conversation.predict(input=enriched_input)
+        # Génère la réponse via LangChain, client direct, ou mode dégradé
+        if self.conversation:
+            # Mode LangChain normal
+            response = self.conversation.predict(input=enriched_input)
+        elif self.direct_openai_client:
+            # Mode client OpenAI direct
+            response = self._generate_direct_openai_response(enriched_input)
+        else:
+            # Mode dégradé - réponse basique avec les services locaux
+            response = self._generate_fallback_response(user_input, enriched_input)
 
         # Sauvegarde la conversation
         if user_id:
@@ -278,6 +471,37 @@ class EasyTravelChatbot:
         """Sauvegarde l'interaction en base de données"""
         self.db.save_conversation(user_id, user_message, bot_response)
         self.db.update_user_preferences(user_id, self.user_preferences)
+
+    def _generate_direct_openai_response(self, enriched_input: str) -> str:
+        """Génère une réponse avec le client OpenAI direct"""
+        try:
+            from .prompts import EASY_TRAVEL_PROMPT
+
+            # Utilise le prompt Easy Travel comme message système
+            system_message = """Tu es Easy Travel, un assistant voyage intelligent et enthousiaste.
+Tu aides les utilisateurs à planifier leurs voyages avec des recommandations personnalisées.
+Réponds de manière amicale, informative et pratique."""
+
+            response = self.direct_openai_client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": system_message},
+                    {"role": "user", "content": enriched_input},
+                ],
+                max_tokens=800,
+                temperature=0.7,
+            )
+
+            result = response.choices[0].message.content
+            print("✅ Réponse générée via client OpenAI direct")
+            return result
+
+        except Exception as e:
+            print(f"❌ Erreur client OpenAI direct: {e}")
+            # Fallback vers le mode dégradé
+            return self._generate_fallback_response(enriched_input, enriched_input)
+
+    # ...existing code...
 
     def generate_travel_plan(self, user_id: str) -> dict:
         """Génère un plan de voyage personnalisé et enrichi avec toutes les données"""

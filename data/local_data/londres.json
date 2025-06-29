@@ -1,0 +1,383 @@
+{
+    "city_info": {
+        "name": "Londres",
+        "country": "Royaume-Uni",
+        "timezone": "Europe/London",
+        "currency": "GBP",
+        "languages": [
+            "Anglais",
+            "Français"
+        ],
+        "emergency_numbers": {
+            "Police/Pompiers/Ambulance": "999"
+        },
+        "tipping_culture": "10-15% au restaurant si service non compris",
+        "public_holidays": [
+            {
+                "date": "2025-08-25",
+                "name": "Summer Bank Holiday"
+            },
+            {
+                "date": "2025-12-25",
+                "name": "Christmas Day"
+            },
+            {
+                "date": "2025-12-26",
+                "name": "Boxing Day"
+            }
+        ],
+        "cultural_etiquette": [
+            "Faire la queue (queue) est sacré",
+            "Dire 'please' et 'thank you' constamment",
+            "Respecter l'espace personnel",
+            "Parler du temps est un excellent ice-breaker"
+        ],
+        "safety_tips": [
+            "Attention aux pickpockets dans les transports",
+            "Regarder à droite puis à gauche avant de traverser",
+            "Éviter certains quartiers tard le soir"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Tower Bridge",
+            "category": "Monument",
+            "description": "Pont emblématique de Londres avec vue panoramique et exposition",
+            "address": "Tower Bridge Rd, London SE1 2UP",
+            "rating": 4.5,
+            "price_level": 2,
+            "opening_hours": {
+                "Lundi": "09:30-18:00",
+                "Mardi": "09:30-18:00",
+                "Mercredi": "09:30-18:00",
+                "Jeudi": "09:30-18:00",
+                "Vendredi": "09:30-18:00",
+                "Samedi": "09:30-18:00",
+                "Dimanche": "09:30-18:00"
+            },
+            "duration_visit": 90,
+            "best_time_visit": "Matin tôt ou fin d'après-midi",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais",
+                "Français",
+                "Espagnol"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Plus de monde en été"
+        },
+        {
+            "name": "British Museum",
+            "category": "Musée",
+            "description": "Musée d'histoire et de culture avec des collections du monde entier",
+            "address": "Great Russell St, Bloomsbury, London WC1B 3DG",
+            "rating": 4.7,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "10:00-17:00",
+                "Mardi": "10:00-17:00",
+                "Mercredi": "10:00-17:00",
+                "Jeudi": "10:00-17:00",
+                "Vendredi": "10:00-20:30",
+                "Samedi": "10:00-17:00",
+                "Dimanche": "10:00-17:00"
+            },
+            "duration_visit": 180,
+            "best_time_visit": "Matinée en semaine",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais",
+                "Français",
+                "Allemand",
+                "Espagnol"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Gratuit mais donations bienvenues"
+        },
+        {
+            "name": "London Eye",
+            "category": "Attraction",
+            "description": "Grande roue offrant une vue panoramique sur Londres",
+            "address": "Riverside Building, County Hall, London SE1 7PB",
+            "rating": 4.3,
+            "price_level": 4,
+            "opening_hours": {
+                "Lundi": "11:00-18:00",
+                "Mardi": "11:00-18:00",
+                "Mercredi": "11:00-18:00",
+                "Jeudi": "11:00-18:00",
+                "Vendredi": "11:00-18:00",
+                "Samedi": "10:00-20:30",
+                "Dimanche": "10:00-20:30"
+            },
+            "duration_visit": 60,
+            "best_time_visit": "Coucher de soleil",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais",
+                "Français"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Horaires étendus en été"
+        },
+        {
+            "name": "Hyde Park",
+            "category": "Parc",
+            "description": "Immense parc urbain avec Speakers' Corner et jardins",
+            "address": "Hyde Park, London",
+            "rating": 4.6,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "05:00-00:00",
+                "Mardi": "05:00-00:00",
+                "Mercredi": "05:00-00:00",
+                "Jeudi": "05:00-00:00",
+                "Vendredi": "05:00-00:00",
+                "Samedi": "05:00-00:00",
+                "Dimanche": "05:00-00:00"
+            },
+            "duration_visit": 120,
+            "best_time_visit": "Après-midi ensoleillé",
+            "accessibility": true,
+            "languages_available": [
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Magnifique en automne avec les feuilles"
+        },
+        {
+            "name": "Westminster Abbey",
+            "category": "Monument religieux",
+            "description": "Abbaye gothique, lieu de couronnement des monarques britanniques",
+            "address": "20 Deans Yd, Westminster, London SW1P 3PA",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "09:30-15:30",
+                "Mardi": "09:30-15:30",
+                "Mercredi": "09:30-15:30",
+                "Jeudi": "09:30-15:30",
+                "Vendredi": "09:30-15:30",
+                "Samedi": "09:30-13:30",
+                "Dimanche": "Fermé au public"
+            },
+            "duration_visit": 90,
+            "best_time_visit": "Matinée",
+            "accessibility": false,
+            "languages_available": [
+                "Anglais",
+                "Français",
+                "Allemand"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Éviter les jours de cérémonies"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Dishoom",
+            "cuisine_type": "Indienne",
+            "description": "Restaurant inspiré des cafés iraniens de Bombay",
+            "address": "Multiple locations",
+            "rating": 4.6,
+            "price_range": "€€",
+            "specialties": [
+                "Black daal",
+                "Chicken ruby curry",
+                "Bacon naan roll"
+            ],
+            "opening_hours": {
+                "Lundi": "08:00-23:00",
+                "Mardi": "08:00-23:00",
+                "Mercredi": "08:00-23:00",
+                "Jeudi": "08:00-23:00",
+                "Vendredi": "08:00-23:00",
+                "Samedi": "08:00-23:00",
+                "Dimanche": "08:00-22:00"
+            },
+            "reservation_required": true,
+            "dietary_options": [
+                "vegetarian",
+                "vegan",
+                "gluten-free"
+            ],
+            "atmosphere": "Vintage et animé",
+            "local_favorite": true
+        },
+        {
+            "name": "Rules Restaurant",
+            "cuisine_type": "Britannique traditionnelle",
+            "description": "Plus ancien restaurant de Londres, cuisine britannique classique",
+            "address": "35 Maiden Ln, Covent Garden, London WC2E 7LB",
+            "rating": 4.3,
+            "price_range": "€€€",
+            "specialties": [
+                "Game pie",
+                "Beef Wellington",
+                "Spotted dick"
+            ],
+            "opening_hours": {
+                "Lundi": "12:00-22:00",
+                "Mardi": "12:00-22:00",
+                "Mercredi": "12:00-22:00",
+                "Jeudi": "12:00-22:00",
+                "Vendredi": "12:00-22:00",
+                "Samedi": "12:00-22:00",
+                "Dimanche": "12:00-21:00"
+            },
+            "reservation_required": true,
+            "dietary_options": [
+                "vegetarian"
+            ],
+            "atmosphere": "Traditionnel et élégant",
+            "local_favorite": true
+        },
+        {
+            "name": "Borough Market Food Stalls",
+            "cuisine_type": "Internationale",
+            "description": "Marché alimentaire historique avec stands variés",
+            "address": "8 Southwark St, London SE1 1TL",
+            "rating": 4.4,
+            "price_range": "€",
+            "specialties": [
+                "Fish and chips",
+                "Cheese",
+                "Fresh bread",
+                "Street food"
+            ],
+            "opening_hours": {
+                "Lundi": "10:00-15:00",
+                "Mardi": "10:00-15:00",
+                "Mercredi": "10:00-15:00",
+                "Jeudi": "10:00-17:00",
+                "Vendredi": "10:00-18:00",
+                "Samedi": "08:00-17:00",
+                "Dimanche": "Fermé"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "vegetarian",
+                "vegan",
+                "gluten-free"
+            ],
+            "atmosphere": "Animé et authentique",
+            "local_favorite": true
+        }
+    ],
+    "events": [
+        {
+            "name": "Changing of the Guard",
+            "category": "Tradition",
+            "description": "Cérémonie traditionnelle de relève de la garde royale",
+            "start_date": "2025-07-01",
+            "end_date": "2025-12-31",
+            "location": "Buckingham Palace",
+            "price": "Gratuit",
+            "booking_url": null
+        },
+        {
+            "name": "Thames Festival",
+            "category": "Festival",
+            "description": "Festival d'été le long de la Tamise avec arts et spectacles",
+            "start_date": "2025-09-15",
+            "end_date": "2025-09-17",
+            "location": "South Bank",
+            "price": "Gratuit",
+            "booking_url": null
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Covent Garden",
+            "description": "Quartier historique avec théâtres, boutiques et restaurants",
+            "highlights": [
+                "Royal Opera House",
+                "Street performers",
+                "Boutiques"
+            ],
+            "atmosphere": "Touristique mais charmant",
+            "best_for": "Shopping et spectacles"
+        },
+        {
+            "name": "Shoreditch",
+            "description": "Quartier branché avec street art et vie nocturne",
+            "highlights": [
+                "Street art",
+                "Bars créatifs",
+                "Marchés vintage"
+            ],
+            "atmosphere": "Hipster et artistique",
+            "best_for": "Nightlife et culture alternative"
+        },
+        {
+            "name": "Notting Hill",
+            "description": "Quartier élégant avec maisons colorées et Portobello Market",
+            "highlights": [
+                "Portobello Road Market",
+                "Maisons victoriennes",
+                "Cafés"
+            ],
+            "atmosphere": "Élégant et résidentiel",
+            "best_for": "Shopping et promenades"
+        }
+    ],
+    "transport": {
+        "public_transport": {
+            "metro": {
+                "name": "London Underground (Tube)",
+                "zones": "1-6",
+                "oyster_card": true,
+                "peak_hours": "07:30-09:30 et 17:00-19:00"
+            },
+            "bus": {
+                "name": "London Buses",
+                "iconic_double_decker": true,
+                "night_service": true
+            }
+        },
+        "taxis": {
+            "black_cabs": "Iconiques mais chers",
+            "uber": "Disponible",
+            "minicabs": "Réserver à l'avance"
+        }
+    },
+    "local_experiences": [
+        {
+            "name": "Afternoon Tea",
+            "description": "Tradition britannique avec thé, scones et finger sandwiches",
+            "best_places": [
+                "The Ritz",
+                "Fortnum & Mason",
+                "Harrods"
+            ],
+            "price_range": "€€€-€€€€",
+            "duration": "2-3 heures"
+        },
+        {
+            "name": "Pub Crawl",
+            "description": "Découverte des pubs historiques londoniens",
+            "best_areas": [
+                "Fitzrovia",
+                "Soho",
+                "Borough"
+            ],
+            "typical_drinks": [
+                "Bitter",
+                "IPA",
+                "Gin & Tonic"
+            ],
+            "etiquette": "Commander au bar, ne pas attendre le service"
+        },
+        {
+            "name": "Markets Tour",
+            "description": "Exploration des marchés emblématiques",
+            "markets": [
+                "Borough Market",
+                "Camden Market",
+                "Portobello Road"
+            ],
+            "best_days": "Samedi pour plus d'animation",
+            "specialties": "Nourriture, vintage, antiquités"
+        }
+    ]
+}

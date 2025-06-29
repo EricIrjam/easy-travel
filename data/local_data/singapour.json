@@ -1,0 +1,214 @@
+{
+    "city_info": {
+        "name": "Singapour",
+        "country": "Singapour",
+        "timezone": "Asia/Singapore",
+        "currency": "SGD",
+        "languages": [
+            "Anglais",
+            "Chinois",
+            "Malais",
+            "Tamoul"
+        ],
+        "emergency_numbers": {
+            "Urgences": "999",
+            "Police": "999"
+        },
+        "tipping_culture": "Pas de pourboire nécessaire, service charge inclus",
+        "public_holidays": [
+            {
+                "date": "2025-02-12",
+                "name": "Nouvel An Chinois"
+            },
+            {
+                "date": "2025-08-09",
+                "name": "Fête Nationale"
+            }
+        ],
+        "cultural_etiquette": [
+            "Respecter les lois strictes",
+            "Enlever ses chaussures dans les temples",
+            "Manger avec la main droite",
+            "Respecter la diversité culturelle"
+        ],
+        "safety_tips": [
+            "Très sûr, peu de criminalité",
+            "Attention aux amendes (chewing-gum, etc.)",
+            "Respecter les interdictions de fumer"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Gardens by the Bay",
+            "category": "Jardin futuriste",
+            "description": "Jardins futuristes avec Supertrees et serres",
+            "address": "18 Marina Gardens Dr, Singapore 018953",
+            "rating": 4.6,
+            "price_level": 3,
+            "opening_hours": "5h00-2h00",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Marina Bay Sands",
+            "category": "Architecture moderne",
+            "description": "Complexe iconique avec piscine à débordement",
+            "address": "10 Bayfront Ave, Singapore 018956",
+            "rating": 4.4,
+            "price_level": 4,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Chinatown",
+            "category": "Quartier culturel",
+            "description": "Quartier chinois traditionnel avec temples et marchés",
+            "address": "Chinatown, Singapore",
+            "rating": 4.3,
+            "price_level": 2,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Zoo de Singapour",
+            "category": "Zoo",
+            "description": "Zoo reconnu mondialement pour ses espaces ouverts",
+            "address": "80 Mandai Lake Rd, Singapore 729826",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": "8h30-18h00",
+            "must_see": false,
+            "duration_hours": 4
+        },
+        {
+            "name": "Sentosa Island",
+            "category": "Île de loisirs",
+            "description": "Île resort avec plages et attractions",
+            "address": "Sentosa Island, Singapore",
+            "rating": 4.2,
+            "price_level": 3,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 6
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Newton Food Centre",
+            "cuisine": "Street food",
+            "description": "Centre de street food célèbre pour sa diversité",
+            "address": "500 Clemenceau Ave N, Singapore 229495",
+            "rating": 4.1,
+            "price_level": 1,
+            "specialties": [
+                "Chili crab",
+                "Satay"
+            ]
+        },
+        {
+            "name": "Odette",
+            "cuisine": "Française moderne",
+            "description": "Restaurant 3 étoiles Michelin, cuisine française raffinée",
+            "address": "1 St Andrew's Rd, #01-04, Singapore 178957",
+            "rating": 4.6,
+            "price_level": 5,
+            "specialties": [
+                "Menu dégustation",
+                "Cuisine moléculaire"
+            ]
+        },
+        {
+            "name": "Lau Pa Sat",
+            "cuisine": "Hawker center",
+            "description": "Marché alimentaire historique victorien",
+            "address": "18 Raffles Quay, Singapore 048582",
+            "rating": 4.0,
+            "price_level": 1,
+            "specialties": [
+                "Plats de toute l'Asie",
+                "Satay street"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Chinese New Year",
+            "date": "2025-01-29 to 2025-02-12",
+            "description": "Célébrations du Nouvel An chinois dans toute la ville",
+            "location": "Chinatown et toute la ville",
+            "type": "Fête culturelle"
+        },
+        {
+            "name": "Formula 1 Singapore Grand Prix",
+            "date": "2025-09-19 to 2025-09-21",
+            "description": "Course de F1 nocturne dans les rues de la ville",
+            "location": "Marina Bay Street Circuit",
+            "type": "Événement sportif"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Marina Bay",
+            "description": "Quartier moderne avec gratte-ciels et attractions",
+            "atmosphere": "Futuriste et luxueux",
+            "best_for": "Architecture moderne, shopping, casinos"
+        },
+        {
+            "name": "Little India",
+            "description": "Quartier indien coloré et parfumé",
+            "atmosphere": "Authentique et vibrant",
+            "best_for": "Temples, épices, textiles"
+        },
+        {
+            "name": "Arab Street",
+            "description": "Quartier arabe avec mosquées et bazars",
+            "atmosphere": "Exotique et commercial",
+            "best_for": "Mosquée Sultan, tissus, parfums"
+        }
+    ],
+    "transport": [
+        {
+            "type": "MRT (Metro)",
+            "description": "Système de métro moderne et efficace",
+            "cost": "EZ Link Card: 1,40-2,50 SGD",
+            "tips": "Très ponctuel et propre"
+        },
+        {
+            "type": "Bus",
+            "description": "Réseau de bus complémentaire au MRT",
+            "cost": "EZ Link Card: 0,90-2,20 SGD",
+            "tips": "Bus touristique HOHO disponible"
+        },
+        {
+            "type": "Taxi/Grab",
+            "description": "Taxis et VTC Grab très répandus",
+            "cost": "Variable selon distance",
+            "tips": "Grab souvent moins cher que les taxis"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Food tour en hawker centers",
+            "description": "Découverte de la street food multiculturelle",
+            "duration": "3-4 heures",
+            "price_range": "40-60 SGD",
+            "best_time": "Soirée"
+        },
+        {
+            "name": "Visite des temples multiculturels",
+            "description": "Tour des temples chinois, hindous et mosquées",
+            "duration": "4-5 heures",
+            "price_range": "Gratuit",
+            "best_time": "Matin ou après-midi"
+        },
+        {
+            "name": "Spectacle de lumières Marina Bay",
+            "description": "Spectacle lumière et son quotidien",
+            "duration": "15 minutes",
+            "price_range": "Gratuit",
+            "best_time": "20h00 et 21h00"
+        }
+    ]
+}

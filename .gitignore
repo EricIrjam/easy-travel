@@ -1,1 +1,25 @@
+# Configuration et clés API
 .env
+
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers système
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs et données temporaires
+logs/*.log
+data/cache/*
+data/user_plans/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.tmp
+*.temp

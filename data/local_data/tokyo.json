@@ -1,0 +1,440 @@
+{
+    "city_info": {
+        "name": "Tokyo",
+        "country": "Japon",
+        "timezone": "Asia/Tokyo",
+        "currency": "JPY",
+        "languages": [
+            "Japonais",
+            "Anglais (limité)"
+        ],
+        "emergency_numbers": {
+            "Police": "110",
+            "Pompiers/Ambulance": "119"
+        },
+        "tipping_culture": "Pas de pourboire - considéré comme impoli",
+        "public_holidays": [
+            {
+                "date": "2025-07-21",
+                "name": "Jour de la Mer"
+            },
+            {
+                "date": "2025-09-15",
+                "name": "Respect des Anciens"
+            },
+            {
+                "date": "2025-11-03",
+                "name": "Jour de la Culture"
+            }
+        ],
+        "cultural_etiquette": [
+            "S'incliner pour saluer",
+            "Enlever ses chaussures dans certains lieux",
+            "Ne pas manger en marchant",
+            "Parler doucement dans les transports",
+            "Utiliser les deux mains pour donner/recevoir"
+        ],
+        "safety_tips": [
+            "Très sûre, même la nuit",
+            "Attention aux tremblements de terre",
+            "Transports très ponctuels",
+            "Avoir de l'argent liquide (beaucoup de lieux n'acceptent pas les cartes)"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Temple Senso-ji",
+            "category": "Temple",
+            "description": "Plus ancien temple de Tokyo dans le quartier traditionnel d'Asakusa",
+            "address": "2-3-1 Asakusa, Taito City, Tokyo",
+            "rating": 4.4,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "06:00-17:00",
+                "Mardi": "06:00-17:00",
+                "Mercredi": "06:00-17:00",
+                "Jeudi": "06:00-17:00",
+                "Vendredi": "06:00-17:00",
+                "Samedi": "06:00-17:00",
+                "Dimanche": "06:00-17:00"
+            },
+            "duration_visit": 90,
+            "best_time_visit": "Tôt le matin ou fin d'après-midi",
+            "accessibility": true,
+            "languages_available": [
+                "Japonais",
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Magnifique pendant les cerisiers en fleurs"
+        },
+        {
+            "name": "Tokyo Skytree",
+            "category": "Observation",
+            "description": "Plus haute tour du Japon avec vue panoramique sur Tokyo",
+            "address": "1-1-2 Oshiage, Sumida City, Tokyo",
+            "rating": 4.3,
+            "price_level": 3,
+            "opening_hours": {
+                "Lundi": "08:00-22:00",
+                "Mardi": "08:00-22:00",
+                "Mercredi": "08:00-22:00",
+                "Jeudi": "08:00-22:00",
+                "Vendredi": "08:00-22:00",
+                "Samedi": "08:00-22:00",
+                "Dimanche": "08:00-22:00"
+            },
+            "duration_visit": 120,
+            "best_time_visit": "Coucher de soleil ou nuit",
+            "accessibility": true,
+            "languages_available": [
+                "Japonais",
+                "Anglais",
+                "Chinois"
+            ],
+            "booking_required": true,
+            "seasonal_info": "File d'attente plus longue les week-ends"
+        },
+        {
+            "name": "Marché aux poissons de Tsukiji (Toyosu)",
+            "category": "Marché",
+            "description": "Nouveau marché aux poissons avec ventes aux enchères de thon",
+            "address": "6-6 Toyosu, Koto City, Tokyo",
+            "rating": 4.2,
+            "price_level": 2,
+            "opening_hours": {
+                "Lundi": "05:00-14:00",
+                "Mardi": "05:00-14:00",
+                "Mercredi": "Fermé",
+                "Jeudi": "05:00-14:00",
+                "Vendredi": "05:00-14:00",
+                "Samedi": "05:00-14:00",
+                "Dimanche": "Fermé"
+            },
+            "duration_visit": 120,
+            "best_time_visit": "Très tôt le matin (05:00-07:00)",
+            "accessibility": true,
+            "languages_available": [
+                "Japonais",
+                "Anglais"
+            ],
+            "booking_required": true,
+            "seasonal_info": "Réservation obligatoire pour voir les enchères"
+        },
+        {
+            "name": "Parc Ueno",
+            "category": "Parc",
+            "description": "Grand parc avec musées, zoo et cerisiers célèbres",
+            "address": "Ueno Park, Taito City, Tokyo",
+            "rating": 4.5,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "05:00-23:00",
+                "Mardi": "05:00-23:00",
+                "Mercredi": "05:00-23:00",
+                "Jeudi": "05:00-23:00",
+                "Vendredi": "05:00-23:00",
+                "Samedi": "05:00-23:00",
+                "Dimanche": "05:00-23:00"
+            },
+            "duration_visit": 180,
+            "best_time_visit": "Saison des cerisiers (fin mars-début avril)",
+            "accessibility": true,
+            "languages_available": [
+                "Japonais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Hanami (contemplation des cerisiers) en avril"
+        },
+        {
+            "name": "Sanctuaire Meiji",
+            "category": "Sanctuaire",
+            "description": "Sanctuaire shinto dédié à l'empereur Meiji, oasis de calme",
+            "address": "1-1 Kamizono-cho, Shibuya City, Tokyo",
+            "rating": 4.6,
+            "price_level": 1,
+            "opening_hours": {
+                "Lundi": "06:00-18:00",
+                "Mardi": "06:00-18:00",
+                "Mercredi": "06:00-18:00",
+                "Jeudi": "06:00-18:00",
+                "Vendredi": "06:00-18:00",
+                "Samedi": "06:00-18:00",
+                "Dimanche": "06:00-18:00"
+            },
+            "duration_visit": 90,
+            "best_time_visit": "Matin tôt",
+            "accessibility": true,
+            "languages_available": [
+                "Japonais",
+                "Anglais"
+            ],
+            "booking_required": false,
+            "seasonal_info": "Cérémonies de mariage traditionnelles certains jours"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Sukiyabashi Jiro",
+            "cuisine_type": "Sushi",
+            "description": "Restaurant légendaire du maître sushi Jiro, 3 étoiles Michelin",
+            "address": "Tsukamoto Sogyo Building B1F, 4-2-15 Ginza, Chuo City",
+            "rating": 4.8,
+            "price_range": "€€€€",
+            "specialties": [
+                "Omakase sushi",
+                "Thon rouge",
+                "Uni"
+            ],
+            "opening_hours": {
+                "Lundi": "11:30-14:00, 17:00-20:00",
+                "Mardi": "11:30-14:00, 17:00-20:00",
+                "Mercredi": "11:30-14:00, 17:00-20:00",
+                "Jeudi": "11:30-14:00, 17:00-20:00",
+                "Vendredi": "11:30-14:00, 17:00-20:00",
+                "Samedi": "Fermé",
+                "Dimanche": "Fermé"
+            },
+            "reservation_required": true,
+            "dietary_options": [],
+            "atmosphere": "Minimaliste et respectueux",
+            "local_favorite": true
+        },
+        {
+            "name": "Ramen Ichiran",
+            "cuisine_type": "Ramen",
+            "description": "Chaîne populaire de ramen avec système de commande unique",
+            "address": "Multiple locations",
+            "rating": 4.2,
+            "price_range": "€",
+            "specialties": [
+                "Tonkotsu ramen",
+                "Chashu",
+                "Gyoza"
+            ],
+            "opening_hours": {
+                "Lundi": "24h/24",
+                "Mardi": "24h/24",
+                "Mercredi": "24h/24",
+                "Jeudi": "24h/24",
+                "Vendredi": "24h/24",
+                "Samedi": "24h/24",
+                "Dimanche": "24h/24"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "vegetarian"
+            ],
+            "atmosphere": "Décontracté, comptoir individuel",
+            "local_favorite": true
+        },
+        {
+            "name": "Tsukiji Outer Market Food Stalls",
+            "cuisine_type": "Street food",
+            "description": "Stands de street food autour de l'ancien marché de Tsukiji",
+            "address": "Tsukiji, Chuo City, Tokyo",
+            "rating": 4.4,
+            "price_range": "€",
+            "specialties": [
+                "Tamagoyaki",
+                "Sushi frais",
+                "Taiyaki",
+                "Melonpan"
+            ],
+            "opening_hours": {
+                "Lundi": "05:00-14:00",
+                "Mardi": "05:00-14:00",
+                "Mercredi": "05:00-14:00",
+                "Jeudi": "05:00-14:00",
+                "Vendredi": "05:00-14:00",
+                "Samedi": "05:00-14:00",
+                "Dimanche": "Fermé"
+            },
+            "reservation_required": false,
+            "dietary_options": [
+                "vegetarian"
+            ],
+            "atmosphere": "Authentique et animé",
+            "local_favorite": true
+        },
+        {
+            "name": "Kaikaya by the Sea",
+            "cuisine_type": "Fruits de mer",
+            "description": "Restaurant de fruits de mer innovant tenu par un chef passionné",
+            "address": "3-7-15 Shibuya, Shibuya City, Tokyo",
+            "rating": 4.5,
+            "price_range": "€€€",
+            "specialties": [
+                "Poisson grillé",
+                "Sashimi",
+                "Sake pairing"
+            ],
+            "opening_hours": {
+                "Lundi": "17:00-23:00",
+                "Mardi": "17:00-23:00",
+                "Mercredi": "17:00-23:00",
+                "Jeudi": "17:00-23:00",
+                "Vendredi": "17:00-23:00",
+                "Samedi": "17:00-23:00",
+                "Dimanche": "Fermé"
+            },
+            "reservation_required": true,
+            "dietary_options": [],
+            "atmosphere": "Intime et créatif",
+            "local_favorite": true
+        }
+    ],
+    "events": [
+        {
+            "name": "Festival Tanabata",
+            "category": "Festival traditionnel",
+            "description": "Festival des étoiles avec décorations colorées",
+            "start_date": "2025-07-07",
+            "end_date": "2025-07-07",
+            "location": "Diverses locations",
+            "price": "Gratuit",
+            "booking_url": null
+        },
+        {
+            "name": "Festival des Cerisiers en Fleurs",
+            "category": "Nature",
+            "description": "Célébration du hanami dans les parcs de Tokyo",
+            "start_date": "2025-03-20",
+            "end_date": "2025-04-10",
+            "location": "Parcs Ueno, Shinjuku Gyoen, Chidorigafuchi",
+            "price": "Gratuit (sauf certains parcs)",
+            "booking_url": null
+        },
+        {
+            "name": "Sumida River Fireworks",
+            "category": "Spectacle",
+            "description": "Grand feu d'artifice d'été sur la rivière Sumida",
+            "start_date": "2025-07-30",
+            "end_date": "2025-07-30",
+            "location": "Rivière Sumida",
+            "price": "Gratuit",
+            "booking_url": null
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Shibuya",
+            "description": "Cœur névralgique moderne avec le fameux carrefour",
+            "highlights": [
+                "Shibuya Crossing",
+                "Hachiko Statue",
+                "Shopping centers"
+            ],
+            "atmosphere": "Énergique et bondé",
+            "best_for": "Shopping et vie nocturne"
+        },
+        {
+            "name": "Asakusa",
+            "description": "Quartier traditionnel avec temples et artisanat",
+            "highlights": [
+                "Temple Senso-ji",
+                "Nakamise Street",
+                "Artisanat traditionnel"
+            ],
+            "atmosphere": "Traditionnel et authentique",
+            "best_for": "Culture traditionnelle"
+        },
+        {
+            "name": "Harajuku",
+            "description": "Quartier de la mode alternative et de la culture pop",
+            "highlights": [
+                "Takeshita Street",
+                "Mode kawaii",
+                "Crêpes"
+            ],
+            "atmosphere": "Coloré et excentrique",
+            "best_for": "Fashion et culture pop"
+        },
+        {
+            "name": "Ginza",
+            "description": "Quartier haut de gamme du shopping et de la gastronomie",
+            "highlights": [
+                "Boutiques de luxe",
+                "Restaurants étoilés",
+                "Kabuki-za Theatre"
+            ],
+            "atmosphere": "Élégant et sophistiqué",
+            "best_for": "Luxe et gastronomie"
+        }
+    ],
+    "transport": {
+        "public_transport": {
+            "metro": {
+                "name": "Tokyo Metro & JR Lines",
+                "ic_card": "Suica ou Pasmo",
+                "rush_hours": "07:30-09:30 et 17:30-19:30",
+                "tips": "Très ponctuel, wagons réservés aux femmes aux heures de pointe"
+            },
+            "shinkansen": {
+                "name": "Train à grande vitesse",
+                "destinations": "Osaka, Kyoto, Hiroshima",
+                "booking": "JR Pass recommandé pour les touristes"
+            }
+        },
+        "taxis": {
+            "regular": "Chers mais très propres",
+            "app_based": "GO Taxi app",
+            "etiquette": "Portes automatiques, ne pas toucher"
+        }
+    },
+    "local_experiences": [
+        {
+            "name": "Hanami (Contemplation des cerisiers)",
+            "description": "Pique-nique sous les cerisiers en fleurs au printemps",
+            "best_places": [
+                "Parc Ueno",
+                "Shinjuku Gyoen",
+                "Chidorigafuchi"
+            ],
+            "season": "Fin mars - début avril",
+            "tips": "Arriver tôt pour avoir une place, apporter une bâche bleue"
+        },
+        {
+            "name": "Onsen (Sources chaudes)",
+            "description": "Bains thermaux traditionnels japonais",
+            "types": [
+                "Sento (publics)",
+                "Onsen hotels",
+                "Super sento"
+            ],
+            "etiquette": "Se laver avant d'entrer, pas de tatouages dans certains",
+            "recommendations": [
+                "Oedo Onsen Monogatari",
+                "Spa LaQua"
+            ]
+        },
+        {
+            "name": "Izakaya Hopping",
+            "description": "Tour des bars à sake traditionnels japonais",
+            "best_areas": [
+                "Shinjuku Omoide Yokocho",
+                "Shibuya",
+                "Ebisu"
+            ],
+            "typical_food": [
+                "Yakitori",
+                "Edamame",
+                "Karaage"
+            ],
+            "drinks": [
+                "Sake",
+                "Chu-hi",
+                "Beer"
+            ],
+            "etiquette": "Dire 'kanpai' pour trinquer"
+        },
+        {
+            "name": "Robot Restaurant Show",
+            "description": "Spectacle futuriste avec robots et néons",
+            "location": "Shinjuku",
+            "duration": "90 minutes",
+            "price_range": "€€",
+            "booking": "Réservation obligatoire"
+        }
+    ]
+}

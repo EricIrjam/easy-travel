@@ -1,0 +1,213 @@
+{
+    "city_info": {
+        "name": "Prague",
+        "country": "République Tchèque",
+        "timezone": "Europe/Prague",
+        "currency": "CZK",
+        "languages": [
+            "Tchèque",
+            "Anglais",
+            "Allemand"
+        ],
+        "emergency_numbers": {
+            "Urgences": "112",
+            "Police": "158"
+        },
+        "tipping_culture": "10-15% au restaurant, arrondir pour les taxis",
+        "public_holidays": [
+            {
+                "date": "2025-05-01",
+                "name": "Fête du Travail"
+            },
+            {
+                "date": "2025-07-05",
+                "name": "Saints Cyrille et Méthode"
+            }
+        ],
+        "cultural_etiquette": [
+            "Enlever ses chaussures en entrant chez quelqu'un",
+            "Dire 'Na zdraví' (santé) en trinquant",
+            "Respecter les traditions de la bière",
+            "Être ponctuel"
+        ],
+        "safety_tips": [
+            "Attention aux pickpockets sur le pont Charles",
+            "Éviter les bureaux de change de rue",
+            "Méfiance avec les taxis non officiels"
+        ]
+    },
+    "attractions": [
+        {
+            "name": "Château de Prague",
+            "category": "Château",
+            "description": "Plus grand château ancien du monde avec cathédrale Saint-Guy",
+            "address": "119 08 Prague 1",
+            "rating": 4.5,
+            "price_level": 3,
+            "opening_hours": "6h00-22h00",
+            "must_see": true,
+            "duration_hours": 4
+        },
+        {
+            "name": "Pont Charles",
+            "category": "Monument historique",
+            "description": "Pont gothique emblématique avec statues et artistes",
+            "address": "Karlův most, Prague 1",
+            "rating": 4.6,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 1
+        },
+        {
+            "name": "Place de la Vieille-Ville",
+            "category": "Place historique",
+            "description": "Place médiévale avec horloge astronomique",
+            "address": "Staroměstské nám., Prague 1",
+            "rating": 4.7,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": true,
+            "duration_hours": 2
+        },
+        {
+            "name": "Quartier juif",
+            "category": "Quartier historique",
+            "description": "Ancien ghetto juif avec synagogues et cimetière",
+            "address": "Josefov, Prague 1",
+            "rating": 4.4,
+            "price_level": 3,
+            "opening_hours": "9h00-18h00",
+            "must_see": true,
+            "duration_hours": 3
+        },
+        {
+            "name": "Mur John Lennon",
+            "category": "Art urbain",
+            "description": "Mur coloré symbole de paix et liberté",
+            "address": "Velkopřevorské náměstí, Prague 1",
+            "rating": 4.0,
+            "price_level": 1,
+            "opening_hours": "24h/24",
+            "must_see": false,
+            "duration_hours": 1
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "Lokál",
+            "cuisine": "Tchèque traditionnelle",
+            "description": "Brasserie authentique avec bière Pilsner Urquell",
+            "address": "Dlouhá 33, Prague 1",
+            "rating": 4.3,
+            "price_level": 2,
+            "specialties": [
+                "Goulash",
+                "Bière fraîche"
+            ]
+        },
+        {
+            "name": "U Fleku",
+            "cuisine": "Brasserie historique",
+            "description": "Plus ancienne brasserie de Prague (1499)",
+            "address": "Křemencova 11, Prague 1",
+            "rating": 4.1,
+            "price_level": 2,
+            "specialties": [
+                "Bière brune maison",
+                "Saucisses traditionnes"
+            ]
+        },
+        {
+            "name": "La Degustation Bohême Bourgeoise",
+            "cuisine": "Gastronomique tchèque",
+            "description": "Restaurant étoilé Michelin, cuisine tchèque raffinée",
+            "address": "Haštalská 18, Prague 1",
+            "rating": 4.6,
+            "price_level": 5,
+            "specialties": [
+                "Menu dégustation",
+                "Cuisine moléculaire tchèque"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "Printemps de Prague",
+            "date": "2025-05-12 to 2025-06-03",
+            "description": "Festival international de musique classique",
+            "location": "Salles de concert de Prague",
+            "type": "Festival musical"
+        },
+        {
+            "name": "Marché de Noël",
+            "date": "2025-11-30 to 2025-01-06",
+            "description": "Marché de Noël traditionnel sur la place de la Vieille-Ville",
+            "location": "Place de la Vieille-Ville",
+            "type": "Marché saisonnier"
+        }
+    ],
+    "neighborhoods": [
+        {
+            "name": "Vieille Ville (Staré Město)",
+            "description": "Centre historique médiéval avec monuments principaux",
+            "atmosphere": "Historique et touristique",
+            "best_for": "Monuments, architecture gothique, shopping"
+        },
+        {
+            "name": "Malá Strana",
+            "description": "Quartier baroque sous le château",
+            "atmosphere": "Romantique et artistique",
+            "best_for": "Architecture baroque, jardins, cafés"
+        },
+        {
+            "name": "Vinohrady",
+            "description": "Quartier résidentiel Art nouveau",
+            "atmosphere": "Bohème et moderne",
+            "best_for": "Vie locale, restaurants, parcs"
+        }
+    ],
+    "transport": [
+        {
+            "type": "Tramway",
+            "description": "Réseau étendu de tramways modernes et historiques",
+            "cost": "Ticket 24h: 120 CZK",
+            "tips": "Tramway 22 pour une visite panoramique"
+        },
+        {
+            "type": "Métro",
+            "description": "3 lignes de métro efficaces",
+            "cost": "Ticket simple: 32 CZK",
+            "tips": "Stations décorées de l'époque communiste"
+        },
+        {
+            "type": "Marche",
+            "description": "Centre historique compact, idéal à pied",
+            "cost": "Gratuit",
+            "tips": "Attention aux pavés glissants"
+        }
+    ],
+    "local_experiences": [
+        {
+            "name": "Dégustation de bière",
+            "description": "Tour des brasseries traditionnelles tchèques",
+            "duration": "3-4 heures",
+            "price_range": "30-50€",
+            "best_time": "Fin d'après-midi"
+        },
+        {
+            "name": "Concert de musique classique",
+            "description": "Concert dans une église baroque ou salle historique",
+            "duration": "1-2 heures",
+            "price_range": "20-60€",
+            "best_time": "Soirée"
+        },
+        {
+            "name": "Croisière sur la Vltava",
+            "description": "Navigation sur la rivière avec vue sur le château",
+            "duration": "1-2 heures",
+            "price_range": "15-30€",
+            "best_time": "Coucher de soleil"
+        }
+    ]
+}
